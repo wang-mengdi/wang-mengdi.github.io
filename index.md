@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Mengdi Wang
 **Email**: mengdi.wang.gr@dartmouth.edu
 
