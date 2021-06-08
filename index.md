@@ -7,9 +7,9 @@ layout: default
 **Email**: mengdi.wang.gr@dartmouth.edu
 
 ## About Me
-I am a first-year PhD student at Dartmouth College, advised by Prof. [Bo Zhu](https://www.cs.dartmouth.edu/~bozhu/). I love everything about fluid simulation algorithms, and focus my research on this field.     
+I am a first-year PhD student at Dartmouth College, advised by Prof. [Bo Zhu](https://www.cs.dartmouth.edu/~bozhu/). I love everything about fluid simulation algorithms, and focus my research on recreating fascinating flow dynamics on complex geometries in the virtual world.
 
-Before coming to Dartmouth, I received my Bachelor degree at Peking University in 2020, advised by Prof. [Baoquan Chen](https://cfcs.pku.edu.cn/baoquan/).
+Before coming to Dartmouth, I received my Bachelor degree of Computer Science at Peking University in 2020, advised by Prof. [Baoquan Chen](https://cfcs.pku.edu.cn/baoquan/).
 
 ## Publications
 <img src="proj/thin-film-sph/resources/represent3000.jpg" align="left" width="30%" style="margin: 0% 5% 2.5% 0%">
