@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# Mengdi Wang
+# Mengdi Wang (王梦迪)
 <img src="images/mengdi-clipped.jpg" align="left" width="30%" style="margin: 0% 5% 2.5% 0%">
 **Email**: mengdi.wang.gr@dartmouth.edu
 
