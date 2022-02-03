@@ -13,10 +13,9 @@ Before coming to Dartmouth, I received my Bachelor degree of Computer Science at
 
 ## Publications
 
-**Visual Data Analysis and Simulation Prediction for COVID-19**
-
-Published in arXiv preprint, 2020
-[Baoquan Chen](https://cfcs.pku.edu.cn/baoquan/), [Mingyi Shi](https://rubbly.cn/), [Xingyu Ni](https://starryuniv.cn), [Liangwang Ruan](https://lwruan.com/), [Hongda Jiang](https://jianghd1996.github.io/), Heyuan Yao, [Mengdi Wang](https://wang-mengdi.github.io/), Zhenhua Song, Qiang Zhou, and Tong Ge.
+**Visual Data Analysis and Simulation Prediction for COVID-19**  
+Published in arXiv preprint, 2020  
+[Baoquan Chen](https://cfcs.pku.edu.cn/baoquan/), [Mingyi Shi](https://rubbly.cn/), [Xingyu Ni](https://starryuniv.cn), [Liangwang Ruan](https://lwruan.com/), [Hongda Jiang](https://jianghd1996.github.io/), Heyuan Yao, [Mengdi Wang](https://wang-mengdi.github.io/), Zhenhua Song, Qiang Zhou, and Tong Ge.  
 **[[paper](https://arxiv.org/ftp/arxiv/papers/2002/2002.07096.pdf)]**  **[[webpage](https://arxiv.org/abs/2002.07096v3/)]**
 
 <img src="proj/thin-film-sph/resources/represent3000.jpg" align="left" width="30%" style="margin: 0% 5% 2.5% 0%">
