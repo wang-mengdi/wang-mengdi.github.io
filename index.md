@@ -3,7 +3,7 @@ layout: default
 ---
 
 # Mengdi Wang (王梦迪)
-<img src="images/mengdi1.jpg" align="left" width="35%" style="margin: 0% 5% 2.5% 0%">
+<img src="images/mengdi.jpg" align="left" width="35%" style="margin: 0% 5% 2.5% 0%">
 [mengdi.wang.gr@dartmouth.edu](mengdi.wang.gr@dartmouth.edu)
 
 ## About Me
