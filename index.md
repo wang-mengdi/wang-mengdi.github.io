@@ -11,6 +11,8 @@ I am a PhD student at Georgia Tech, advised by Prof. [Bo Zhu](https://faculty.cc
 
 I received my Bachelor degree of Computer Science at Peking University in 2020, advised by Prof. [Baoquan Chen](https://cfcs.pku.edu.cn/baoquan/).
 
+<br />
+
 ## Publications
 
 <img src="proj/hydro/resources/feature.jpeg" align="left" width="30%" style="margin: 0% 5% 2.5% 0%">
