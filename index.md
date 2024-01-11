@@ -4,12 +4,12 @@ layout: default
 
 # Mengdi Wang (王梦迪)
 <img src="images/mengdi.jpg" align="left" width="35%" style="margin: 0% 5% 2.5% 0%">
-[mengdi.wang.gr@dartmouth.edu](mengdi.wang.gr@dartmouth.edu)
+[mengdi.wang@gatech.edu](mengdi.wang@gatech.edu)
 
 ## About Me
-I am a PhD student at Dartmouth College, advised by Prof. [Bo Zhu](https://www.cs.dartmouth.edu/~bozhu/). My research focuses on simulating multi-phase fluid phenomena on complex geometries facilitated by high-performance GPU algorithms.
+I am a PhD student at Georgia Tech, advised by Prof. [Bo Zhu](https://faculty.cc.gatech.edu/~bozhu/). My research focuses on simulating multi-phase fluid phenomena on complex geometries facilitated by high-performance GPU algorithms.
 
-Before coming to Dartmouth, I received my Bachelor degree of Computer Science at Peking University in 2020, advised by Prof. [Baoquan Chen](https://cfcs.pku.edu.cn/baoquan/).
+I received my Bachelor degree of Computer Science at Peking University in 2020, advised by Prof. [Baoquan Chen](https://cfcs.pku.edu.cn/baoquan/).
 
 ## Publications
 
