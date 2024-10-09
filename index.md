@@ -7,7 +7,7 @@ layout: default
 [mengdi.wang@gatech.edu](mengdi.wang@gatech.edu)
 
 ## About Me
-I am a PhD student at Georgia Tech, advised by Prof. [Bo Zhu](https://faculty.cc.gatech.edu/~bozhu/). My research focuses on simulating multi-phase fluid phenomena on complex geometries facilitated by high-performance GPU algorithms.
+I am a PhD student at Georgia Tech, advised by Prof. [Bo Zhu](https://faculty.cc.gatech.edu/~bozhu/). My research interest spans multiple areas of physics simulation, including fluid and cloth simulation. I focus on developing innovative numerical algorithms to simulate complex physical processes in intricate geometries and scenarios. This includes work on adaptive-resolution, high-performance GPU algorithms, high-precision surface tracking techniques, and novel low-dissipation numerical schemes.
 
 I received my Bachelor degree of Computer Science at Peking University in 2020, advised by Prof. [Baoquan Chen](https://cfcs.pku.edu.cn/baoquan/).
 
