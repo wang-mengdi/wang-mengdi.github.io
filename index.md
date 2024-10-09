@@ -2,9 +2,11 @@
 layout: default
 ---
 
-# Mengdi Wang (王梦迪)
-<img src="images/mengdi.jpg" align="left" width="35%" style="margin: 0% 5% 2.5% 0%">
+# Mengdi Wang (王梦迪) 
 [mengdi.wang@gatech.edu](mengdi.wang@gatech.edu)
+
+<img src="images/mengdi.jpg" align="left" width="35%" style="margin: 0% 5% 2.5% 0%">
+
 
 ## About Me
 I am a PhD student at Georgia Tech, advised by Prof. [Bo Zhu](https://faculty.cc.gatech.edu/~bozhu/). My research interest spans multiple areas of physics simulation, including fluid and cloth simulation. I focus on developing innovative numerical algorithms to simulate complex physical processes in intricate geometries and scenarios. This includes work on adaptive-resolution, high-performance GPU algorithms, high-precision surface tracking techniques, and novel low-dissipation numerical schemes.
