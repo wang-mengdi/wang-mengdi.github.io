@@ -25,19 +25,19 @@ We propose a particle-based method to simulate thin-film fluid that jointly faci
 
 ## Video / Results
 
-#### Static Reconstruction
+### Static Reconstruction
 
 <img src="./resources/static-recon.png" width="60%">
 
-#### Single Vortex
+### Single Vortex
 
 <img src="./resources/single-vortex.png" width="60%">
 
-#### Zalesak's Disk
+### Zalesak's Disk
 
 <img src="./resources/zalesak-disk.png" width="60%">
 
-#### Deformation Test
+### Deformation Test
 
 <img src="./resources/deformation-test.png" width="60%">
 
