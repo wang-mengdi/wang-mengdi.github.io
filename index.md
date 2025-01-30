@@ -9,9 +9,10 @@ layout: default
 
 
 ## About Me
-I am a PhD student at Georgia Tech, advised by Prof. [Bo Zhu](https://faculty.cc.gatech.edu/~bozhu/). My research interest spans multiple areas of physics simulation, including fluid and cloth simulation. I focus on developing innovative numerical algorithms to simulate complex physical processes in intricate geometries and scenarios. This includes work on adaptive-resolution, high-performance GPU algorithms, high-precision surface tracking techniques, and novel low-dissipation numerical schemes.
+I am a PhD student at Georgia Tech, advised by Prof. [Bo Zhu](https://faculty.cc.gatech.edu/~bozhu/). I received my Bachelor degree of Computer Science at Peking University in 2020, advised by Prof. [Baoquan Chen](https://cfcs.pku.edu.cn/baoquan/).
 
-I received my Bachelor degree of Computer Science at Peking University in 2020, advised by Prof. [Baoquan Chen](https://cfcs.pku.edu.cn/baoquan/).
+My research focuses on physics-based simulation. I develop high-performance GPU algorithms to achieve accurate physical simulations on consumer-grade hardware that previously required supercomputers, enabling advancements in scientific research, computer-aided engineering, and virtual reality applications. My work spans adaptive-resolution high-performance GPU algorithms, high-precision interface tracking, and novel low-dissipation numerical schemes.
+
 
 <br />
 
