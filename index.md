@@ -19,34 +19,47 @@ My research focuses on physics-based simulation. I develop high-performance GPU 
 
 ## Publications
 
-<img src="proj/25-cirrus/representative-image.jpg" align="left" width="30%" style="margin: 0% 5% 2.5% 0%">
-**Cirrus: Adaptive Hybrid Particle-Grid Flow Maps on GPU**  
+<a href="./proj/25-cirrus/" target="_blank">
+  <img src="./proj/25-cirrus/representative-image.jpg" align="left" width="30%" style="margin: 0% 5% 2.5% 0%">
+</a>
+[**Cirrus: Adaptive Hybrid Particle-Grid Flow Maps on GPU**](./proj/25-cirrus/)
+<br />
 ACM Transactions on Graphics (Proceedings of SIGGRAPH 2025)
 <br />
 [**Mengdi Wang**](https://wang-mengdi.github.io/), [Fan Feng](https://sking8.github.io/), Junlin Li, [Bo Zhu](https://faculty.cc.gatech.edu/~bozhu/)
 <br />
-**[[preprint](proj/25-cirrus/cirrus-preprint.pdf)]**  **[[webpage](proj/25-cirrus/)]**
+[![paper](https://img.shields.io/badge/Paper-Preprint-red)](./proj/25-cirrus/cirrus-preprint.pdf)
+[![webpage](https://img.shields.io/badge/Project-Homepage-green)](./proj/25-cirrus/)
+[![code](https://img.shields.io/badge/Source_Code-Github-blue)](https://github.com/wang-mengdi/Cirrus)
 
 <br />
 <br />
 
-<img src="https://kuiwuchn.github.io/rtstitch.jpg" align="left" width="30%" style="margin: 0% 5% 2.5% 0%">
-**Real-Time Knit Deformation and Rendering**  
+<a href="https://kuiwuchn.github.io/rtstitch.html" target="_blank">
+    <img src="https://kuiwuchn.github.io/rtstitch.jpg" align="left" width="30%" style="margin: 0% 5% 2.5% 0%">
+</a>
+[**Real-Time Knit Deformation and Rendering**](https://kuiwuchn.github.io/rtstitch.html)
+<br />
 ACM Transactions on Graphics (Proceedings of SIGGRAPH 2025)
 <br />
 [Tao Huang\*](https://dcjmj.github.io/), [Haoyang Shi\*](https://luke-skycrawler.github.io/), [**Mengdi Wang**\*](https://wang-mengdi.github.io/), [Yuxing Qiu](https://yuxingqiu.github.io/), [Yin Yang](https://yangzzzy.github.io/), [Kui Wu](https://kuiwuchn.github.io/)
 <br />
-**[[preprint](https://kuiwuchn.github.io/rtstitch/rtstitch.pdf)]**  **[[webpage](https://kuiwuchn.github.io/rtstitch.html)]**
+[![paper](https://img.shields.io/badge/Paper-Preprint-red)](https://kuiwuchn.github.io/rtstitch/rtstitch.pdf)
+[![webpage](https://img.shields.io/badge/Project-Homepage-green)](https://kuiwuchn.github.io/rtstitch.html)
 
 <br />
 <br />
 
-<img src="proj/triangle-edge-cuts/resources/cases-nofix.png" align="left" width="30%" style="margin: 0% 5% 2.5% 0%">
-**An interface tracking method with triangle edge cuts**  
+<a href="./proj/triangle-edge-cuts" target="_blank">
+    <img src="proj/triangle-edge-cuts/resources/cases-nofix.png" align="left" width="30%" style="margin: 0% 5% 2.5% 0%">
+</a>
+[**An interface tracking method with triangle edge cuts**](./proj/triangle-edge-cuts)
+<br />
 Journal of Computational Physics (Volume 520, 1 January 2025, 113504)
 <br />
 [**Mengdi Wang**](https://wang-mengdi.github.io/), [Matthew Cong](https://physbam.stanford.edu/~mdcong/), [Bo Zhu](https://faculty.cc.gatech.edu/~bozhu/)  
-**[[paper](https://wang-mengdi.github.io/proj/triangle-edge-cuts/resources/preprint.pdf)]**  **[[webpage](https://wang-mengdi.github.io/proj/triangle-edge-cuts/)]**
+[![paper](https://img.shields.io/badge/Paper-Preprint-red)](./proj/triangle-edge-cuts/resources/preprint.pdf)
+[![webpage](https://img.shields.io/badge/Project-Homepage-green)](./proj/triangle-edge-cuts)
 
 <br />
 <br />
@@ -55,7 +68,7 @@ Journal of Computational Physics (Volume 520, 1 January 2025, 113504)
 **Hydrophobic and Hydrophilic Solid-Fluid Interaction**  
 ACM Transactions on Graphics (Proceedings of SIGGRAPH Asia 2022)  
 [Jinyuan Liu](https://jinyuan-liu.github.io), [**Mengdi Wang**](https://wang-mengdi.github.io/), [Fan Feng](https://sking8.github.io/), [Annie Tang](http://annietang.me/), [Qiqin Le](https://lqqqqq.blogspot.com/), [Bo Zhu](https://www.cs.dartmouth.edu/~bozhu/)  
-**[[paper](https://jinyuan-liu.github.io/files/liu2022hydro.pdf)]**  **[[webpage](https://jinyuan-liu.github.io/projects/2022hydro/)]**
+[![paper](https://img.shields.io/badge/Paper-Public-red)](https://dl.acm.org/doi/10.1145/3550454.3555478)
 
 <br />
 <br />
