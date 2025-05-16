@@ -27,7 +27,7 @@ We propose the adaptive hybrid particle-grid flow map method, a novel flow-map a
 
 ## Method
 
-<video width="100%" controls>
+<video width="100%" controls autoplay muted playsinline>
   <source src="./flamingo1.0-tile-particles.mp4" type="video/mp4">
   Flamingo with grid structure
 </video>
@@ -37,9 +37,12 @@ We construct an octree-based adaptive grid on the GPU using 8×8×8 tiles as the
 
 ## Video
 
-<iframe width="100%" height="400" src="https://www.youtube.com/embed/cANbIa_m3mY" 
-frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-allowfullscreen></iframe>
+<div style="position: relative; width: 100%; padding-bottom: 56.25%;">
+  <iframe src="https://www.youtube.com/embed/cANbIa_m3mY"
+          style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+          frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+</div>
 
 
 ## Citation
