@@ -118,9 +118,9 @@ ACM Transactions on Graphics (Proceedings of SIGGRAPH 2022)
 </a>
 [**Thin-Film Smoothed Particle Hydrodynamics Fluid**](./proj/thin-film-sph/)
 <br />
-ACM Transactions on Graphics (Proceedings of SIGGRAPH 2021)  
+ACM Transactions on Graphics (Proceedings of SIGGRAPH 2021)
 <br />
-[**Mengdi Wang**](./), Yitong Deng, Xiangxin Kong, Aditya H. Prasad, [Shiying Xiong](https://shiyingxiong.github.io/), [Bo Zhu](https://www.cs.dartmouth.edu/~bozhu/)  
+[**Mengdi Wang**](./), Yitong Deng, Xiangxin Kong, Aditya H. Prasad, [Shiying Xiong](https://shiyingxiong.github.io/), [Bo Zhu](https://www.cs.dartmouth.edu/~bozhu/)
 <br />
 [![paper](https://img.shields.io/badge/Paper-Public-red)](https://cs.dartmouth.edu/~bozhu/papers/sph_bubble.pdf)
 [![webpage](https://img.shields.io/badge/Project-Homepage-green)](./proj/thin-film-sph/)
@@ -130,7 +130,7 @@ ACM Transactions on Graphics (Proceedings of SIGGRAPH 2021)
 
 [**Visual Data Analysis and Simulation Prediction for COVID-19**](https://arxiv.org/abs/2002.07096v3/)
 <br />
-Published in arXiv preprint, 2020  
+Published in arXiv preprint, 2020
 <br />
 [Baoquan Chen](https://cfcs.pku.edu.cn/baoquan/), [Mingyi Shi](https://rubbly.cn/), [Xingyu Ni](https://starryuniv.cn), [Liangwang Ruan](https://lwruan.com/), [Hongda Jiang](https://jianghd1996.github.io/), Heyuan Yao, [**Mengdi Wang**](./), Zhenhua Song, Qiang Zhou, Tong Ge.
 <br />
