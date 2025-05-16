@@ -13,7 +13,11 @@ layout: default
 <br />
 ACM Transactions on Graphics (Proceedings of SIGGRAPH 2025)
 <br />
-**[[preprint](cirrus-preprint.pdf)]**  **[[webpage](.)]** **[[source code](https://github.com/wang-mengdi/Cirrus)]**
+
+
+[![preprint](https://img.shields.io/badge/Paper-Preprint-red)](./cirrus-preprint.pdf)
+[![webpage](https://img.shields.io/badge/Project-Homepage-green)](.)
+[![code](https://img.shields.io/badge/Source_Code-Github-blue)](https://github.com/wang-mengdi/Cirrus)
 
 <figure>
   <img src="./representative-image.jpg" align="left" width="100%" style="margin: 0% 5% 2.5% 0%">
