@@ -3,6 +3,7 @@ layout: default
 ---
 
 # Mengdi Wang (王梦迪) 
+<br />
 [mengdi.wang@gatech.edu](mengdi.wang@gatech.edu)
 
 <img src="images/mengdi.jpg" align="left" width="35%" style="margin: 0% 5% 2.5% 0%">
