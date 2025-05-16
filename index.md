@@ -33,8 +33,8 @@ ACM Transactions on Graphics (Proceedings of SIGGRAPH 2025)
 <br />
 [**Mengdi Wang**](./), [Fan Feng](https://sking8.github.io/), Junlin Li, [Bo Zhu](https://faculty.cc.gatech.edu/~bozhu/)
 <br />
-[![paper](https://img.shields.io/badge/Paper-Preprint-red)](./proj/25-cirrus/cirrus-preprint.pdf)
 [![webpage](https://img.shields.io/badge/Project-Homepage-green)](./proj/25-cirrus/)
+[![paper](https://img.shields.io/badge/Paper-Preprint-red)](./proj/25-cirrus/cirrus-preprint.pdf)
 [![code](https://img.shields.io/badge/Source_Code-Github-blue)](https://github.com/wang-mengdi/Cirrus)
 
 <br />
@@ -49,8 +49,9 @@ ACM Transactions on Graphics (Proceedings of SIGGRAPH 2025)
 <br />
 [Tao Huang\*](https://dcjmj.github.io/), [Haoyang Shi\*](https://luke-skycrawler.github.io/), [**Mengdi Wang**\*](./), [Yuxing Qiu](https://yuxingqiu.github.io/), [Yin Yang](https://yangzzzy.github.io/), [Kui Wu](https://kuiwuchn.github.io/)
 <br />
-[![paper](https://img.shields.io/badge/Paper-Preprint-red)](https://kuiwuchn.github.io/rtstitch/rtstitch.pdf)
 [![webpage](https://img.shields.io/badge/Project-Homepage-green)](https://kuiwuchn.github.io/rtstitch.html)
+[![paper](https://img.shields.io/badge/Paper-Preprint-red)](https://kuiwuchn.github.io/rtstitch/rtstitch.pdf)
+
 
 <br />
 <br />
@@ -63,8 +64,8 @@ ACM Transactions on Graphics (Proceedings of SIGGRAPH 2025)
 Journal of Computational Physics (Volume 520, 1 January 2025, 113504)
 <br />
 [**Mengdi Wang**](./), [Matthew Cong](https://physbam.stanford.edu/~mdcong/), [Bo Zhu](https://faculty.cc.gatech.edu/~bozhu/)  
-[![paper](https://img.shields.io/badge/Paper-Preprint-red)](./proj/triangle-edge-cuts/resources/preprint.pdf)
 [![webpage](https://img.shields.io/badge/Project-Homepage-green)](./proj/triangle-edge-cuts)
+[![paper](https://img.shields.io/badge/Paper-Preprint-red)](./proj/triangle-edge-cuts/resources/preprint.pdf)
 
 
 <br />
@@ -92,8 +93,9 @@ ACM Transactions on Graphics (Proceedings of SIGGRAPH 2022)
 <br />
 [Shiying Xiong](https://shiyingxiong.github.io/), Zhecheng Wang, [**Mengdi Wang**](./), [Bo Zhu](https://www.cs.dartmouth.edu/~bozhu/)
 <br />
-[![paper](https://img.shields.io/badge/Paper-Public-red)](https://shiyingxiong.github.io/proj/Clebsch/Clebsch.pdf)
 [![webpage](https://img.shields.io/badge/Project-Homepage-green)](https://shiyingxiong.github.io/proj/Clebsch/Clebsch)
+[![paper](https://img.shields.io/badge/Paper-Public-red)](https://shiyingxiong.github.io/proj/Clebsch/Clebsch.pdf)
+
 
 <br />
 <br />
@@ -107,8 +109,8 @@ ACM Transactions on Graphics (Proceedings of SIGGRAPH 2022)
 <br />
 [Yitong Deng](https://yitongdeng.github.io/), [**Mengdi Wang**](./), Xiangxin Kong, [Shiying Xiong](https://shiyingxiong.github.io/), Zangyueyang Xian, [Bo Zhu](https://www.cs.dartmouth.edu/~bozhu/)
 <br />
-[![paper](https://img.shields.io/badge/Paper-Public-red)](https://cs.dartmouth.edu/~bozhu/papers/melp.pdf)
 [![webpage](https://img.shields.io/badge/Project-Homepage-green)](https://yitongdeng.github.io/MELP_Project.github.io)
+[![paper](https://img.shields.io/badge/Paper-Public-red)](https://cs.dartmouth.edu/~bozhu/papers/melp.pdf)
 
 <br />
 <br />
@@ -122,8 +124,8 @@ ACM Transactions on Graphics (Proceedings of SIGGRAPH 2021)
 <br />
 [**Mengdi Wang**](./), Yitong Deng, Xiangxin Kong, Aditya H. Prasad, [Shiying Xiong](https://shiyingxiong.github.io/), [Bo Zhu](https://www.cs.dartmouth.edu/~bozhu/)
 <br />
-[![paper](https://img.shields.io/badge/Paper-Public-red)](https://cs.dartmouth.edu/~bozhu/papers/sph_bubble.pdf)
 [![webpage](https://img.shields.io/badge/Project-Homepage-green)](./proj/thin-film-sph/)
+[![paper](https://img.shields.io/badge/Paper-Public-red)](https://cs.dartmouth.edu/~bozhu/papers/sph_bubble.pdf)
 
 <br />
 <br />

@@ -5,7 +5,7 @@ layout: default
 # *Cirrus*: Adaptive Hybrid Particle-Grid Flow Maps on GPU
 
 
-[**Mengdi Wang<sup>1</sup>** ](https://wang-mengdi.github.io/), [Fan Feng<sup>2</sup>](https://sking8.github.io/), Junlin Li<sup>1</sup>, [Bo Zhu<sup>1</sup>](https://www.cs.dartmouth.edu/~bozhu/)
+[**Mengdi Wang<sup>1</sup>** ](../../), [Fan Feng<sup>2</sup>](https://sking8.github.io/), Junlin Li<sup>1</sup>, [Bo Zhu<sup>1</sup>](https://www.cs.dartmouth.edu/~bozhu/)
 <br />
 <sup>1</sup>Georgia Institute of Technology
 <br />
@@ -15,8 +15,8 @@ ACM Transactions on Graphics (Proceedings of SIGGRAPH 2025)
 <br />
 
 
-[![preprint](https://img.shields.io/badge/Paper-Preprint-red)](./cirrus-preprint.pdf)
 [![webpage](https://img.shields.io/badge/Project-Homepage-green)](.)
+[![preprint](https://img.shields.io/badge/Paper-Preprint-red)](./cirrus-preprint.pdf)
 [![code](https://img.shields.io/badge/Source_Code-Github-blue)](https://github.com/wang-mengdi/Cirrus)
 
 <figure>
