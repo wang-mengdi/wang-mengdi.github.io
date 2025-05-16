@@ -98,26 +98,40 @@ ACM Transactions on Graphics (Proceedings of SIGGRAPH 2022)
 <br />
 <br />
 
- 
-<img src="proj/melp-bubble/resources/MELP.png" align="left" width="30%" style="margin: 0% 5% 2.5% 0%">
-**A Moving Eulerian-Lagrangian Particle Method for Thin Film and Foam Simulation**  
-ACM Transactions on Graphics (Proceedings of SIGGRAPH 2022)  
-[Yitong Deng](https://yitongdeng.github.io/), [**Mengdi Wang**](./), Xiangxin Kong, [Shiying Xiong](https://shiyingxiong.github.io/), Zangyueyang Xian, [Bo Zhu](https://www.cs.dartmouth.edu/~bozhu/)  
-**[[paper](https://cs.dartmouth.edu/~bozhu/papers/melp.pdf)]**  **[[webpage](https://yitongdeng.github.io/MELP_Project.github.io/)]**
+<a href="https://yitongdeng.github.io/MELP_Project.github.io/" target="_blank">
+    <img src="proj/melp-bubble/resources/MELP.png" align="left" width="30%" style="margin: 0% 5% 2.5% 0%">
+</a>
+[**A Moving Eulerian-Lagrangian Particle Method for Thin Film and Foam Simulation**](https://yitongdeng.github.io/MELP_Project.github.io/)
+<br />
+ACM Transactions on Graphics (Proceedings of SIGGRAPH 2022)
+<br />
+[Yitong Deng](https://yitongdeng.github.io/), [**Mengdi Wang**](./), Xiangxin Kong, [Shiying Xiong](https://shiyingxiong.github.io/), Zangyueyang Xian, [Bo Zhu](https://www.cs.dartmouth.edu/~bozhu/)
+<br />
+[![paper](https://img.shields.io/badge/Paper-Public-red)](https://cs.dartmouth.edu/~bozhu/papers/melp.pdf)
+[![webpage](https://img.shields.io/badge/Project-Homepage-green)](https://yitongdeng.github.io/MELP_Project.github.io)
 
 <br />
 <br />
 
-<img src="proj/thin-film-sph/resources/represent3000.jpg" align="left" width="30%" style="margin: 0% 5% 2.5% 0%">
-**Thin-Film Smoothed Particle Hydrodynamics Fluid**  
+<a href="./proj/thin-film-sph/" target="_blank">
+    <img src="proj/thin-film-sph/resources/represent3000.jpg" align="left" width="30%" style="margin: 0% 5% 2.5% 0%">
+</a>
+[**Thin-Film Smoothed Particle Hydrodynamics Fluid**](./proj/thin-film-sph/)
+<br />
 ACM Transactions on Graphics (Proceedings of SIGGRAPH 2021)  
+<br />
 [**Mengdi Wang**](./), Yitong Deng, Xiangxin Kong, Aditya H. Prasad, [Shiying Xiong](https://shiyingxiong.github.io/), [Bo Zhu](https://www.cs.dartmouth.edu/~bozhu/)  
-**[[paper](https://cs.dartmouth.edu/~bozhu/papers/sph_bubble.pdf)]**  **[[webpage](./proj/thin-film-sph/)]**
+<br />
+[![paper](https://img.shields.io/badge/Paper-Public-red)](https://cs.dartmouth.edu/~bozhu/papers/sph_bubble.pdf)
+[![webpage](https://img.shields.io/badge/Project-Homepage-green)](./proj/thin-film-sph/)
 
 <br />
 <br />
 
-**Visual Data Analysis and Simulation Prediction for COVID-19**  
+[**Visual Data Analysis and Simulation Prediction for COVID-19**](https://arxiv.org/abs/2002.07096v3/)
+<br />
 Published in arXiv preprint, 2020  
-[Baoquan Chen](https://cfcs.pku.edu.cn/baoquan/), [Mingyi Shi](https://rubbly.cn/), [Xingyu Ni](https://starryuniv.cn), [Liangwang Ruan](https://lwruan.com/), [Hongda Jiang](https://jianghd1996.github.io/), Heyuan Yao, [**Mengdi Wang**](./), Zhenhua Song, Qiang Zhou, Tong Ge.  
-**[[paper](https://arxiv.org/ftp/arxiv/papers/2002/2002.07096.pdf)]**  **[[webpage](https://arxiv.org/abs/2002.07096v3/)]**
+<br />
+[Baoquan Chen](https://cfcs.pku.edu.cn/baoquan/), [Mingyi Shi](https://rubbly.cn/), [Xingyu Ni](https://starryuniv.cn), [Liangwang Ruan](https://lwruan.com/), [Hongda Jiang](https://jianghd1996.github.io/), Heyuan Yao, [**Mengdi Wang**](./), Zhenhua Song, Qiang Zhou, Tong Ge.
+<br />
+[![paper](https://img.shields.io/badge/Paper-Arxiv-red)](https://arxiv.org/abs/2002.07096v3)
