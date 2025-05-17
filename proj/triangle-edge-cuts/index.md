@@ -4,7 +4,7 @@ layout: default
 
 # An Interface Tracking Method with Triangle Edge Cuts
 
-[Mengdi Wang<sup>1</sup>](https://wang-mengdi.github.io/), [Matthew Cong<sup>2</sup>](https://physbam.stanford.edu/~mdcong/), [Bo Zhu<sup>1</sup>](https://faculty.cc.gatech.edu/~bozhu/)
+[Mengdi Wang<sup>1</sup>](../../), [Matthew Cong<sup>2</sup>](https://physbam.stanford.edu/~mdcong/), [Bo Zhu<sup>1</sup>](https://faculty.cc.gatech.edu/~bozhu/)
 <br />
 <sup>1</sup>Georgia Institute of Technology
 <br />
