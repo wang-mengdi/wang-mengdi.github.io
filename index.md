@@ -63,9 +63,10 @@ ACM Transactions on Graphics (Proceedings of SIGGRAPH 2025)
 </a>
 [**An interface tracking method with triangle edge cuts**](./proj/triangle-edge-cuts)
 <br />
-[**Mengdi Wang**](./), [Matthew Cong](https://physbam.stanford.edu/~mdcong/), [Bo Zhu](https://faculty.cc.gatech.edu/~bozhu/)  
 [![webpage](https://img.shields.io/badge/Project-Homepage-green)](./proj/triangle-edge-cuts)
 [![paper](https://img.shields.io/badge/Paper-Preprint-red)](./proj/triangle-edge-cuts/resources/preprint.pdf)
+<br />
+[**Mengdi Wang**](./), [Matthew Cong](https://physbam.stanford.edu/~mdcong/), [Bo Zhu](https://faculty.cc.gatech.edu/~bozhu/)  
 <br />
 Journal of Computational Physics (Volume 520, 1 January 2025, 113504)
 
