@@ -79,8 +79,9 @@ Journal of Computational Physics (Volume 520, 1 January 2025, 113504)
 </a>
 [**Hydrophobic and Hydrophilic Solid-Fluid Interaction**](https://dl.acm.org/doi/10.1145/3550454.3555478)
 <br />
-[Jinyuan Liu](https://jinyuan-liu.github.io), [**Mengdi Wang**](./), [Fan Feng](https://sking8.github.io/), [Annie Tang](http://annietang.me/), [Qiqin Le](https://lqqqqq.blogspot.com/), [Bo Zhu](https://www.cs.dartmouth.edu/~bozhu/)  
 [![paper](https://img.shields.io/badge/Paper-Public-red)](https://dl.acm.org/doi/10.1145/3550454.3555478)
+<br />
+[Jinyuan Liu](https://jinyuan-liu.github.io), [**Mengdi Wang**](./), [Fan Feng](https://sking8.github.io/), [Annie Tang](http://annietang.me/), [Qiqin Le](https://lqqqqq.blogspot.com/), [Bo Zhu](https://www.cs.dartmouth.edu/~bozhu/)
 <br />
 ACM Transactions on Graphics (Proceedings of SIGGRAPH Asia 2022)
 
