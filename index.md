@@ -2,14 +2,13 @@
 layout: default
 ---
 
-# Mengdi Wang (王梦迪) 
-
 
 <div style="display: flex; align-items: flex-start;">
   <div style="width: 35%; margin-right: 20px;">
-    <img src="images/mengdi.jpg" width="100%">
+    <img src="images/mengdi.jpg" width="65%">
   </div>
   <div>
+    <h1>Mengdi Wang (王梦迪)</h1>
     PhD Student
     <br />
     School of IC, Georgia Institute of Technology
@@ -17,17 +16,20 @@ layout: default
     3142 Klaus Building
     <br />
     Email: mengdi.wang@gatech.edu
+    <br />
+    <a href="./resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a> |
+    <a href="https://scholar.google.com/citations?user=-5AeATsAAAAJ" target="_blank" rel="noopener noreferrer">Google Scholar</a> |
+    <a href="https://www.linkedin.com/in/mengdi-wang-cg/" target="_blank" rel="noopener noreferrer">LinkedIn</a> |
+    <a href="https://github.com/wang-mengdi" target="_blank" rel="noopener noreferrer">GitHub</a>
   </div>
 </div>
 
 ## About Me
 I am a PhD student at Georgia Tech in the School of Interactive Computing, majoring in Computer Science with a research focus on physics-based simulation, advised by Prof. [Bo Zhu](https://faculty.cc.gatech.edu/~bozhu/). I received my Bachelor degree of Computer Science at Peking University in 2020, advised by Prof. [Baoquan Chen](https://cfcs.pku.edu.cn/baoquan/). 
 
+My overarching research goal is to empower diverse fields such as scientific discovery, video generation AI, and game visual effects through high-performance, large-scale GPU-based physical simulations. To this end, my work involves the development of novel numerical algorithms for simulating both large-scale physical phenomena on GPUs and complex geometric fluids, leading to multiple publications at top venues including SIGGRAPH and the Journal of Computational Physics (JCP).
+
 **I anticipate graduating in June 2026 and am actively seeking Postdoctoral and Research Scientist positions. Please feel free to reach out to discuss potential opportunities.**
-
-## Research
-
-My overarching research goal is to empower diverse fields such as scientific discovery, video generation AI, and game visual effects through GPU-basd high-performance, large-scale physical simulations. My overarching research goal is to empower diverse fields such as scientific discovery, video generation AI, and game visual effects through GPU-basd high-performance, large-scale physical simulations. During my internship at NVIDIA, I collaborated on research that resulted in in a JCP publication. I developed *Cirrus*, the first high-performance GPU adaptive grid fluid simulator within the graphics community, which was presented at SIGGRAPH. During my internship at Tencent Lightspeed Studios, I collaborate on the development of an innovative algorithm for the real-time simulation and visualization of knit fabrics, also published at SIGGRAPH. Most recently, my internship at TikTok involved the development of physically-grounded generative models integrating physics simulation techniques for video generation.
 
 <br />
 
@@ -156,3 +158,36 @@ Published in arXiv preprint, 2020
 <br />
 [Baoquan Chen](https://cfcs.pku.edu.cn/baoquan/), [Mingyi Shi](https://rubbly.cn/), [Xingyu Ni](https://starryuniv.cn), [Liangwang Ruan](https://lwruan.com/), [Hongda Jiang](https://jianghd1996.github.io/), Heyuan Yao, [**Mengdi Wang**](./), Zhenhua Song, Qiang Zhou, Tong Ge.
 
+
+## Experience
+
+<img src="images/tiktok-logo.png" align="left" width="15%" style="margin: 0% 5% 2.5% 0%">
+**Game Engine Research Intern**
+<br />
+TikTok Inc.
+<br />
+San Jose, CA
+<br />
+2025.5 ~ Present
+
+<br />
+
+<img src="images/lightspeed-studios.png" align="left" width="15%" style="margin: 0% 5% 2.5% 0%">
+**Research Intern**
+<br />
+Lightspeed Studio, Tencent America
+<br />
+Los Angeles, CA
+<br />
+2024.5 ~ 2024.8
+
+<br />
+
+<img src="images/nvidia-logo.jpg" align="left" width="15%" style="margin: 0% 5% 2.5% 0%">
+**Research Intern**
+<br />
+NVIDIA Research
+<br />
+Santa Clara, CA (remote)
+<br />
+2022.6 ~ 2022.9
