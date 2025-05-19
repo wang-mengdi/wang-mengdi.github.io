@@ -58,13 +58,13 @@ ACM Transactions on Graphics (Proceedings of SIGGRAPH 2025)
 <br />
 <br />
 
-<a href="./proj/triangle-edge-cuts" target="_blank">
-    <img src="proj/triangle-edge-cuts/resources/cases-nofix.png" align="left" width="30%" style="margin: 0% 5% 2.5% 0%">
+<a href="./proj/25-triangle-edge-cuts" target="_blank">
+    <img src="proj/25-triangle-edge-cuts/resources/cases-nofix.png" align="left" width="30%" style="margin: 0% 5% 2.5% 0%">
 </a>
-[**An interface tracking method with triangle edge cuts**](./proj/triangle-edge-cuts)
+[**An interface tracking method with triangle edge cuts**](./proj/25-triangle-edge-cuts)
 <br />
-[![webpage](https://img.shields.io/badge/Project-Homepage-green)](./proj/triangle-edge-cuts)
-[![paper](https://img.shields.io/badge/Paper-Preprint-red)](./proj/triangle-edge-cuts/resources/preprint.pdf)
+[![webpage](https://img.shields.io/badge/Project-Homepage-green)](./proj/25-triangle-edge-cuts)
+[![paper](https://img.shields.io/badge/Paper-Preprint-red)](./proj/25-triangle-edge-cuts/resources/preprint.pdf)
 <br />
 [**Mengdi Wang**](./), [Matthew Cong](https://physbam.stanford.edu/~mdcong/), [Bo Zhu](https://faculty.cc.gatech.edu/~bozhu/)  
 <br />

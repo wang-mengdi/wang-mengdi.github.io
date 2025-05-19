@@ -31,12 +31,48 @@ We propose the adaptive hybrid particle-grid flow map method, a novel flow-map a
 
 ## Method
 
-<video width="100%" controls autoplay muted playsinline>
+<video width="100%" controls autoplay muted playsinline loop>
   <source src="./flamingo1.0-tile-particles.mp4" type="video/mp4">
   Flamingo with grid structure
 </video>
 
 We construct an octree-based adaptive grid on the GPU using 8×8×8 tiles as the fundamental building blocks. A particle system serves both as a medium for convective flow mapping and as an oracle to guide grid refinement, enabling fine resolution in regions with critical flow features.
+
+## Results
+
+### Racing Car
+
+The computational domain is $1\times 1\times 2$ with effective resolution $512\times 512\times 1024$. The inflow and outflow are $\bm u=(0,0,1)$ and the length of the car is $0.9$ in the z-axis. 
+
+<video width="100%" controls autoplay muted playsinline loop>
+  <source src="oracle_smoke_1080p.mp4" type="video/mp4">
+</video>
+
+### Aircraft
+
+A WP-3D aircraft model in flow $(0,0,1)$ with $4$ rotating propellers at a 15-degree angle of attack. The effective resolution is $512\times 512\times 1024$ in a computational domain $1\times 1\times 2$, and the length of the aircraft is $0.9$. It demonstrates that our algorithm can efficiently simulate moving small objects and effectively reproduce physical phenomena such as wingtip vortices.
+
+<video width="100%" controls autoplay muted playsinline loop>
+  <source src="wp3drot1.0-smoke.mp4" type="video/mp4">
+</video>
+
+
+### Flamingo Flock
+
+A flying flamingo flock created with a particle system as the effective resolution spans $512\times 512\times 2048$.
+
+<video width="100%" controls autoplay muted playsinline loop>
+  <source src="flamingo1.1-vorticity.mp4" type="video/mp4">
+</video>
+
+### Bat
+
+A bat with complex mesh flapping its wings.
+
+<video width="100%" controls autoplay muted playsinline loop>
+  <source src="bat1.1-vorticity.mp4" type="video/mp4">
+</video>
+
 
 
 ## Video
