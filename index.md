@@ -76,7 +76,7 @@ Journal of Computational Physics (Volume 520, 1 January 2025, 113504)
 <br />
 
 <a href="https://dl.acm.org/doi/10.1145/3550454.3555478" target="_blank">
-    <img src="proj/hydro/resources/feature.jpeg" align="left" width="30%" style="margin: 0% 5% 2.5% 0%">
+    <img src="proj/assets/hydro-image.jpeg" align="left" width="30%" style="margin: 0% 5% 2.5% 0%">
 </a>
 [**Hydrophobic and Hydrophilic Solid-Fluid Interaction**](https://dl.acm.org/doi/10.1145/3550454.3555478)
 <br />
@@ -91,7 +91,7 @@ ACM Transactions on Graphics (Proceedings of SIGGRAPH Asia 2022)
 <br />
 
 <a href="https://shiyingxiong.github.io/proj/Clebsch/Clebsch" target="_blank">
-    <img src="proj/clebsch/resources/clebsch.png" align="left" width="30%" style="margin: 0% 5% 2.5% 0%">
+    <img src="./proj/assets/clebsch-image.png" align="left" width="30%" style="margin: 0% 5% 2.5% 0%">
 </a>
 [**A Clebsch method for free-surface vortical flow simulation**](https://shiyingxiong.github.io/proj/Clebsch/Clebsch)
 <br />
@@ -108,7 +108,7 @@ ACM Transactions on Graphics (Proceedings of SIGGRAPH 2022)
 <br />
 
 <a href="https://yitongdeng.github.io/MELP_Project.github.io/" target="_blank">
-    <img src="proj/melp-bubble/resources/MELP.png" align="left" width="30%" style="margin: 0% 5% 2.5% 0%">
+    <img src="proj/assets/MELP-image.png" align="left" width="30%" style="margin: 0% 5% 2.5% 0%">
 </a>
 [**A Moving Eulerian-Lagrangian Particle Method for Thin Film and Foam Simulation**](https://yitongdeng.github.io/MELP_Project.github.io/)
 <br />
@@ -123,12 +123,12 @@ ACM Transactions on Graphics (Proceedings of SIGGRAPH 2022)
 <br />
 <br />
 
-<a href="./proj/thin-film-sph/" target="_blank">
-    <img src="proj/thin-film-sph/resources/represent3000.jpg" align="left" width="30%" style="margin: 0% 5% 2.5% 0%">
+<a href="./proj/21-thin-film-sph/" target="_blank">
+    <img src="proj/21-thin-film-sph/resources/represent3000.jpg" align="left" width="30%" style="margin: 0% 5% 2.5% 0%">
 </a>
-[**Thin-Film Smoothed Particle Hydrodynamics Fluid**](./proj/thin-film-sph/)
+[**Thin-Film Smoothed Particle Hydrodynamics Fluid**](./proj/21-thin-film-sph/)
 <br />
-[![webpage](https://img.shields.io/badge/Project-Homepage-green)](./proj/thin-film-sph/)
+[![webpage](https://img.shields.io/badge/Project-Homepage-green)](./proj/21-thin-film-sph/)
 [![paper](https://img.shields.io/badge/Paper-Public-red)](https://cs.dartmouth.edu/~bozhu/papers/sph_bubble.pdf)
 <br />
 ACM Transactions on Graphics (Proceedings of SIGGRAPH 2021)
