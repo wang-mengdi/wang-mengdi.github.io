@@ -92,6 +92,9 @@ A bat with complex mesh flapping its wings.
 
 ## Video
 
+[![Bilibili](https://img.shields.io/badge/bilibili-00A1D6.svg?style=for-the-badge&logo=bilibili&logoColor=white)](https://www.bilibili.com/video/BV12gExzjESa)
+[![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white)](https://www.youtube.com/watch?v=cANbIa_m3mY)
+
 <div style="position: relative; width: 100%; padding-bottom: 56.25%;">
   <iframe src="https://www.youtube.com/embed/cANbIa_m3mY"
           style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
