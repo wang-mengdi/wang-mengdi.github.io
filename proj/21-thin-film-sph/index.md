@@ -4,7 +4,7 @@ layout: default
 
 # Thin-Film Smoothed Particle Hydrodynamics Fluid
 
-[Mengdi Wang<sup>1</sup>](https://wang-mengdi.github.io/), Yitong Deng<sup>1</sup>, Xiangxin Kong<sup>1</sup>, Aditya H. Prasad<sup>1</sup>, [Shiying Xiong<sup>1</sup>](https://shiyingxiong.github.io/),  and [Bo Zhu<sup>1</sup>](https://www.cs.dartmouth.edu/~bozhu/)
+[Mengdi Wang<sup>1</sup>](https://wang-mengdi.github.io/), [Yitong Deng<sup>1</sup>](https://yitongdeng.github.io/), Xiangxin Kong<sup>1</sup>, Aditya H. Prasad<sup>1</sup>, [Shiying Xiong<sup>1</sup>](https://shiyingxiong.github.io/),  and [Bo Zhu<sup>1</sup>](https://faculty.cc.gatech.edu/~bozhu/)
 <br />
 <sup>1</sup>Dartmouth College
 <br />
