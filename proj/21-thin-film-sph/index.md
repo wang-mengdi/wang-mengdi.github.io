@@ -10,6 +10,7 @@ layout: default
 <br />
 [![webpage](https://img.shields.io/badge/Project-Homepage-green)](.)
 [![paper](https://img.shields.io/badge/Paper-Public-red)](https://cs.dartmouth.edu/~bozhu/papers/sph_bubble.pdf)
+[![code](https://img.shields.io/badge/Source_Code-Github-blue)](https://github.com/wang-mengdi/sph-thin-film)
 
 <figure>
   <img src="./resources/represent3000.jpg" align="left" width="100%" style="margin: 0% 5% 2.5% 0%">

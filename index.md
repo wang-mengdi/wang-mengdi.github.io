@@ -142,6 +142,7 @@ ACM Transactions on Graphics (Proceedings of SIGGRAPH 2022)
 <br />
 [![webpage](https://img.shields.io/badge/Project-Homepage-green)](./proj/21-thin-film-sph/)
 [![paper](https://img.shields.io/badge/Paper-Public-red)](https://cs.dartmouth.edu/~bozhu/papers/sph_bubble.pdf)
+[![code](https://img.shields.io/badge/Source_Code-Github-blue)](https://github.com/wang-mengdi/sph-thin-film)
 <br />
 ACM Transactions on Graphics (Proceedings of SIGGRAPH 2021)
 <br />
