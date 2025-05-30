@@ -125,6 +125,7 @@ ACM Transactions on Graphics (Proceedings of SIGGRAPH 2022)
 <br />
 [![webpage](https://img.shields.io/badge/Project-Homepage-green)](https://yitongdeng.github.io/MELP_Project.github.io)
 [![paper](https://img.shields.io/badge/Paper-Public-red)](https://cs.dartmouth.edu/~bozhu/papers/melp.pdf)
+[![code](https://img.shields.io/badge/Source_Code-Github-blue)](https://github.com/wang-mengdi/melp-thin-film)
 <br />
 ACM Transactions on Graphics (Proceedings of SIGGRAPH 2022)
 <br />
