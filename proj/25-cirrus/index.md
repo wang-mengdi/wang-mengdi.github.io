@@ -2,6 +2,21 @@
 layout: default
 ---
 
+<script>
+MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']],
+    displayMath: [['$$', '$$'], ['\\[', '\\]']],
+    processEscapes: true,
+    processEnvironments: true
+  },
+  options: {
+    skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+  }
+};
+</script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" id="MathJax-script"></script>
+
 # *Cirrus*: Adaptive Hybrid Particle-Grid Flow Maps on GPU
 
 
@@ -42,7 +57,7 @@ We construct an octree-based adaptive grid on the GPU using 8×8×8 tiles as the
 
 ### Racing Car
 
-The computational domain is $1\times 1\times 2$ with effective resolution $512\times 512\times 1024$. The inflow and outflow are $\bm u=(0,0,1)$ and the length of the car is $0.9$ in the z-axis. 
+The computational domain is $1\times 1\times 2$ with effective resolution $512\times 512\times 1024$. The inflow and outflow are $\mathbf u=(0,0,1)$ and the length of the car is $0.9$ in the z-axis. 
 
 <video width="100%" controls autoplay muted playsinline loop>
   <source src="oracle_smoke_1080p.mp4" type="video/mp4">
@@ -76,6 +91,9 @@ A bat with complex mesh flapping its wings.
 
 
 ## Video
+
+[![Bilibili](https://img.shields.io/badge/bilibili-00A1D6.svg?style=for-the-badge&logo=bilibili&logoColor=white)](https://www.bilibili.com/video/BV12gExzjESa)
+[![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white)](https://www.youtube.com/watch?v=cANbIa_m3mY)
 
 <div style="position: relative; width: 100%; padding-bottom: 56.25%;">
   <iframe src="https://www.youtube.com/embed/cANbIa_m3mY"

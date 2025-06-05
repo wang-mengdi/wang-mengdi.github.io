@@ -4,12 +4,13 @@ layout: default
 
 # Thin-Film Smoothed Particle Hydrodynamics Fluid
 
-[Mengdi Wang<sup>1</sup>](https://wang-mengdi.github.io/), Yitong Deng<sup>1</sup>, Xiangxin Kong<sup>1</sup>, Aditya H. Prasad<sup>1</sup>, [Shiying Xiong<sup>1</sup>](https://shiyingxiong.github.io/),  and [Bo Zhu<sup>1</sup>](https://www.cs.dartmouth.edu/~bozhu/)
+[Mengdi Wang<sup>1</sup>](https://wang-mengdi.github.io/), [Yitong Deng<sup>1</sup>](https://yitongdeng.github.io/), Xiangxin Kong<sup>1</sup>, Aditya H. Prasad<sup>1</sup>, [Shiying Xiong<sup>1</sup>](https://shiyingxiong.github.io/),  and [Bo Zhu<sup>1</sup>](https://faculty.cc.gatech.edu/~bozhu/)
 <br />
 <sup>1</sup>Dartmouth College
 <br />
 [![webpage](https://img.shields.io/badge/Project-Homepage-green)](.)
 [![paper](https://img.shields.io/badge/Paper-Public-red)](https://cs.dartmouth.edu/~bozhu/papers/sph_bubble.pdf)
+[![code](https://img.shields.io/badge/Source_Code-Github-blue)](https://github.com/wang-mengdi/sph-thin-film)
 
 <figure>
   <img src="./resources/represent3000.jpg" align="left" width="100%" style="margin: 0% 5% 2.5% 0%">

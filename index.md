@@ -93,7 +93,7 @@ Journal of Computational Physics (Volume 520, 1 January 2025, 113504)
 <br />
 [![paper](https://img.shields.io/badge/Paper-Public-red)](https://dl.acm.org/doi/10.1145/3550454.3555478)
 <br />
-[Jinyuan Liu](https://jinyuan-liu.github.io), [**Mengdi Wang**](./), [Fan Feng](https://sking8.github.io/), [Annie Tang](http://annietang.me/), [Qiqin Le](https://lqqqqq.blogspot.com/), [Bo Zhu](https://www.cs.dartmouth.edu/~bozhu/)
+[Jinyuan Liu](https://jinyuan-liu.github.io), [**Mengdi Wang**](./), [Fan Feng](https://sking8.github.io/), [Annie Tang](http://annietang.me/), [Qiqin Le](https://lqqqqq.blogspot.com/), [Bo Zhu](https://faculty.cc.gatech.edu/~bozhu/)
 <br />
 ACM Transactions on Graphics (Proceedings of SIGGRAPH Asia 2022)
 
@@ -111,7 +111,7 @@ ACM Transactions on Graphics (Proceedings of SIGGRAPH Asia 2022)
 <br />
 ACM Transactions on Graphics (Proceedings of SIGGRAPH 2022)
 <br />
-[Shiying Xiong](https://shiyingxiong.github.io/), Zhecheng Wang, [**Mengdi Wang**](./), [Bo Zhu](https://www.cs.dartmouth.edu/~bozhu/)
+[Shiying Xiong](https://shiyingxiong.github.io/), Zhecheng Wang, [**Mengdi Wang**](./), [Bo Zhu](https://faculty.cc.gatech.edu/~bozhu/)
 
 
 
@@ -125,10 +125,11 @@ ACM Transactions on Graphics (Proceedings of SIGGRAPH 2022)
 <br />
 [![webpage](https://img.shields.io/badge/Project-Homepage-green)](https://yitongdeng.github.io/MELP_Project.github.io)
 [![paper](https://img.shields.io/badge/Paper-Public-red)](https://cs.dartmouth.edu/~bozhu/papers/melp.pdf)
+[![code](https://img.shields.io/badge/Source_Code-Github-blue)](https://github.com/wang-mengdi/melp-thin-film)
 <br />
 ACM Transactions on Graphics (Proceedings of SIGGRAPH 2022)
 <br />
-[Yitong Deng](https://yitongdeng.github.io/), [**Mengdi Wang**](./), Xiangxin Kong, [Shiying Xiong](https://shiyingxiong.github.io/), Zangyueyang Xian, [Bo Zhu](https://www.cs.dartmouth.edu/~bozhu/)
+[Yitong Deng](https://yitongdeng.github.io/), [**Mengdi Wang**](./), Xiangxin Kong, [Shiying Xiong](https://shiyingxiong.github.io/), Zangyueyang Xian, [Bo Zhu](https://faculty.cc.gatech.edu/~bozhu/)
 
 
 <br />
@@ -141,10 +142,11 @@ ACM Transactions on Graphics (Proceedings of SIGGRAPH 2022)
 <br />
 [![webpage](https://img.shields.io/badge/Project-Homepage-green)](./proj/thin-film-sph/)
 [![paper](https://img.shields.io/badge/Paper-Public-red)](https://cs.dartmouth.edu/~bozhu/papers/sph_bubble.pdf)
+[![code](https://img.shields.io/badge/Source_Code-Github-blue)](https://github.com/wang-mengdi/sph-thin-film)
 <br />
 ACM Transactions on Graphics (Proceedings of SIGGRAPH 2021)
 <br />
-[**Mengdi Wang**](./), [Yitong Deng](https://yitongdeng.github.io/), Xiangxin Kong, Aditya H. Prasad, [Shiying Xiong](https://shiyingxiong.github.io/), [Bo Zhu](https://www.cs.dartmouth.edu/~bozhu/)
+[**Mengdi Wang**](./), [Yitong Deng](https://yitongdeng.github.io/), Xiangxin Kong, Aditya H. Prasad, [Shiying Xiong](https://shiyingxiong.github.io/), [Bo Zhu](https://faculty.cc.gatech.edu/~bozhu/)
 
 
 <br />
