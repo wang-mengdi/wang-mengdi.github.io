@@ -69,13 +69,13 @@ ACM Transactions on Graphics (Proceedings of SIGGRAPH 2025)
 <br />
 <br />
 
-<a href="./proj/25-triangle-edge-cuts" target="_blank">
-    <img src="proj/25-triangle-edge-cuts/resources/cases-nofix.png" align="left" width="30%" style="margin: 0% 5% 2.5% 0%">
+<a href="./proj/triangle-edge-cuts" target="_blank">
+    <img src="proj/triangle-edge-cuts/resources/cases-nofix.png" align="left" width="30%" style="margin: 0% 5% 2.5% 0%">
 </a>
-[**An interface tracking method with triangle edge cuts**](./proj/25-triangle-edge-cuts)
+[**An interface tracking method with triangle edge cuts**](./proj/triangle-edge-cuts)
 <br />
-[![webpage](https://img.shields.io/badge/Project-Homepage-green)](./proj/25-triangle-edge-cuts)
-[![paper](https://img.shields.io/badge/Paper-Preprint-red)](./proj/25-triangle-edge-cuts/resources/preprint.pdf)
+[![webpage](https://img.shields.io/badge/Project-Homepage-green)](./proj/triangle-edge-cuts)
+[![paper](https://img.shields.io/badge/Paper-Preprint-red)](./proj/triangle-edge-cuts/resources/preprint.pdf)
 <br />
 [**Mengdi Wang**](./), [Matthew Cong](https://physbam.stanford.edu/~mdcong/), [Bo Zhu](https://faculty.cc.gatech.edu/~bozhu/)  
 <br />
@@ -134,17 +134,17 @@ ACM Transactions on Graphics (Proceedings of SIGGRAPH 2022)
 <br />
 <br />
 
-<a href="./proj/21-thin-film-sph/" target="_blank">
-    <img src="proj/21-thin-film-sph/resources/represent3000.jpg" align="left" width="30%" style="margin: 0% 5% 2.5% 0%">
+<a href="./proj/thin-film-sph/" target="_blank">
+    <img src="proj/thin-film-sph/resources/represent3000.jpg" align="left" width="30%" style="margin: 0% 5% 2.5% 0%">
 </a>
-[**Thin-Film Smoothed Particle Hydrodynamics Fluid**](./proj/21-thin-film-sph/)
+[**Thin-Film Smoothed Particle Hydrodynamics Fluid**](./proj/thin-film-sph/)
 <br />
-[![webpage](https://img.shields.io/badge/Project-Homepage-green)](./proj/21-thin-film-sph/)
+[![webpage](https://img.shields.io/badge/Project-Homepage-green)](./proj/thin-film-sph/)
 [![paper](https://img.shields.io/badge/Paper-Public-red)](https://cs.dartmouth.edu/~bozhu/papers/sph_bubble.pdf)
 <br />
 ACM Transactions on Graphics (Proceedings of SIGGRAPH 2021)
 <br />
-[**Mengdi Wang**](./), Yitong Deng, Xiangxin Kong, Aditya H. Prasad, [Shiying Xiong](https://shiyingxiong.github.io/), [Bo Zhu](https://www.cs.dartmouth.edu/~bozhu/)
+[**Mengdi Wang**](./), [Yitong Deng](https://yitongdeng.github.io/), Xiangxin Kong, Aditya H. Prasad, [Shiying Xiong](https://shiyingxiong.github.io/), [Bo Zhu](https://www.cs.dartmouth.edu/~bozhu/)
 
 
 <br />
