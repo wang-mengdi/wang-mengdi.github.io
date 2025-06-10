@@ -24,6 +24,12 @@ layout: default
   </div>
 </div>
 
+## About Me
+I am a PhD student at Georgia Tech in the School of Interactive Computing, majoring in Computer Science with a research focus on physics-based simulation, advised by Prof. [Bo Zhu](https://faculty.cc.gatech.edu/~bozhu/). I received my Bachelor degree of Computer Science at Peking University in 2020, advised by Prof. [Baoquan Chen](https://cfcs.pku.edu.cn/baoquan/). 
+
+My overarching research goal is to empower diverse fields such as scientific discovery, video generation AI, and game visual effects through high-performance, large-scale GPU-based physical simulations. To this end, my work involves the development of novel numerical algorithms for simulating both large-scale physical phenomena on GPUs and complex geometric fluids, leading to multiple publications at top venues including SIGGRAPH and the Journal of Computational Physics (JCP).
+
+**I anticipate graduating in June 2026 and am actively seeking Postdoctoral and Research Scientist positions. Please feel free to reach out to discuss potential opportunities.**
 
 Contributed open-source projects:  
 
@@ -33,15 +39,6 @@ Contributed open-source projects:
 [![code](https://img.shields.io/badge/meso-Github-blue)](https://github.com/wang-mengdi/meso)
 [![code](https://img.shields.io/badge/Cirrus-Github-blue)](https://github.com/wang-mengdi/Cirrus)
 
-
-## About Me
-I am a PhD student at Georgia Tech in the School of Interactive Computing, majoring in Computer Science with a research focus on physics-based simulation, advised by Prof. [Bo Zhu](https://faculty.cc.gatech.edu/~bozhu/). I received my Bachelor degree of Computer Science at Peking University in 2020, advised by Prof. [Baoquan Chen](https://cfcs.pku.edu.cn/baoquan/). 
-
-My overarching research goal is to empower diverse fields such as scientific discovery, video generation AI, and game visual effects through high-performance, large-scale GPU-based physical simulations. To this end, my work involves the development of novel numerical algorithms for simulating both large-scale physical phenomena on GPUs and complex geometric fluids, leading to multiple publications at top venues including SIGGRAPH and the Journal of Computational Physics (JCP).
-
-**I anticipate graduating in June 2026 and am actively seeking Postdoctoral and Research Scientist positions. Please feel free to reach out to discuss potential opportunities.**
-
-<br />
 
 ## Publications
 
