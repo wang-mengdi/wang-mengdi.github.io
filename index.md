@@ -24,6 +24,16 @@ layout: default
   </div>
 </div>
 
+
+Contributed open-source projects:  
+
+[![code](https://img.shields.io/badge/Simplex-Gitlab-orange)](https://gitlab.com/boolzhu/simplex)
+[![code](https://img.shields.io/badge/sph_thin_film-Github-blue)](https://github.com/wang-mengdi/sph-thin-film)
+[![code](https://img.shields.io/badge/melp_thin_film-Github-blue)](https://github.com/wang-mengdi/melp-thin-film)
+[![code](https://img.shields.io/badge/meso-Github-blue)](https://github.com/wang-mengdi/meso)
+[![code](https://img.shields.io/badge/Cirrus-Github-blue)](https://github.com/wang-mengdi/Cirrus)
+
+
 ## About Me
 I am a PhD student at Georgia Tech in the School of Interactive Computing, majoring in Computer Science with a research focus on physics-based simulation, advised by Prof. [Bo Zhu](https://faculty.cc.gatech.edu/~bozhu/). I received my Bachelor degree of Computer Science at Peking University in 2020, advised by Prof. [Baoquan Chen](https://cfcs.pku.edu.cn/baoquan/). 
 
