@@ -33,11 +33,11 @@ My overarching research goal is to empower diverse fields such as scientific dis
 
 Contributed open-source projects:  
 
-[![code](https://img.shields.io/badge/Simplex-Gitlab-orange)](https://gitlab.com/boolzhu/simplex)
-[![code](https://img.shields.io/badge/sph_thin_film-Github-blue)](https://github.com/wang-mengdi/sph-thin-film)
-[![code](https://img.shields.io/badge/melp_thin_film-Github-blue)](https://github.com/wang-mengdi/melp-thin-film)
-[![code](https://img.shields.io/badge/meso-Github-blue)](https://github.com/wang-mengdi/meso)
 [![code](https://img.shields.io/badge/Cirrus-Github-blue)](https://github.com/wang-mengdi/Cirrus)
+[![code](https://img.shields.io/badge/meso-Github-blue)](https://github.com/wang-mengdi/meso)
+[![code](https://img.shields.io/badge/melp_thin_film-Github-blue)](https://github.com/wang-mengdi/melp-thin-film)
+[![code](https://img.shields.io/badge/sph_thin_film-Github-blue)](https://github.com/wang-mengdi/sph-thin-film)
+[![code](https://img.shields.io/badge/Simplex-Gitlab-orange)](https://gitlab.com/boolzhu/simplex)
 
 
 ## Publications
