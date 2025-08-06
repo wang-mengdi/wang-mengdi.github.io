@@ -48,7 +48,7 @@ Contributed open-source projects:
 [**Cirrus: Adaptive Hybrid Particle-Grid Flow Maps on GPU**](./proj/25-cirrus/)
 <br />
 [![webpage](https://img.shields.io/badge/Project-Homepage-green)](./proj/25-cirrus/)
-[![paper](https://img.shields.io/badge/Paper-Preprint-red)](./proj/25-cirrus/cirrus-preprint.pdf)
+[![paper](https://img.shields.io/badge/Paper-Public-red)](./proj/25-cirrus/cirrus-preprint.pdf)
 [![code](https://img.shields.io/badge/Source_Code-Github-blue)](https://github.com/wang-mengdi/Cirrus)
 <br />
 ACM Transactions on Graphics (Proceedings of SIGGRAPH 2025)
@@ -65,7 +65,7 @@ ACM Transactions on Graphics (Proceedings of SIGGRAPH 2025)
 [**Real-Time Knit Deformation and Rendering**](https://kuiwuchn.github.io/rtstitch.html)
 <br />
 [![webpage](https://img.shields.io/badge/Project-Homepage-green)](https://kuiwuchn.github.io/rtstitch.html)
-[![paper](https://img.shields.io/badge/Paper-Preprint-red)](https://kuiwuchn.github.io/rtstitch/rtstitch.pdf)
+[![paper](https://img.shields.io/badge/Paper-Public-red)](https://kuiwuchn.github.io/rtstitch/rtstitch.pdf)
 <br />
 ACM Transactions on Graphics (Proceedings of SIGGRAPH 2025)
 <br />
