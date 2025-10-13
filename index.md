@@ -9,7 +9,7 @@ layout: default
   </div>
   <div>
     <h1>Mengdi Wang (王梦迪)</h1>
-    PhD Student
+    PhD Candidate
     <br />
     School of IC, Georgia Institute of Technology
     <br />
@@ -25,7 +25,7 @@ layout: default
 </div>
 
 ## About Me
-I am a PhD student at Georgia Tech in the School of Interactive Computing, majoring in Computer Science with a research focus on physics-based simulation, advised by Prof. [Bo Zhu](https://faculty.cc.gatech.edu/~bozhu/). I received my Bachelor degree of Computer Science at Peking University in 2020, advised by Prof. [Baoquan Chen](https://cfcs.pku.edu.cn/baoquan/). 
+I am a PhD candidate at Georgia Tech in the School of Interactive Computing, majoring in Computer Science with a research focus on physics-based simulation, advised by Prof. [Bo Zhu](https://faculty.cc.gatech.edu/~bozhu/). I received my Bachelor degree of Computer Science at Peking University in 2020, advised by Prof. [Baoquan Chen](https://cfcs.pku.edu.cn/baoquan/). 
 
 My overarching research goal is to empower diverse fields such as scientific discovery, video generation AI, and game visual effects through high-performance, large-scale GPU-based physical simulations. To this end, my work involves the development of novel numerical algorithms for simulating both large-scale physical phenomena on GPUs and complex geometric fluids, leading to multiple publications at top venues including SIGGRAPH and the Journal of Computational Physics (JCP).
 
