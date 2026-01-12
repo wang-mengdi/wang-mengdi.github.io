@@ -5,7 +5,7 @@ layout: default
 
 <div style="display: flex; align-items: flex-start;">
   <div style="width: 35%; margin-right: 20px;">
-    <img src="images/mengdi.jpg" width="65%">
+    <img src="images/ALP1628_cropped_4_5.jpg" width="80%">
   </div>
   <div>
     <h1>Mengdi Wang (王梦迪)</h1>
