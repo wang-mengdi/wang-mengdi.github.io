@@ -1,0 +1,198 @@
+/*******************************************************************************
+ * Custom styles - Retro academic style inspired by RAIL Group page
+ ******************************************************************************/
+
+@use "variables" as v;
+
+// Theme colors - Navy blue for retro academic feel
+$navy-color: #1a3c5a;
+$navy-dark: #0f2740;
+$link-color: #0066cc;
+$link-hover: #004499;
+
+:root {
+  --global-theme-color: #{$navy-color};
+  --global-hover-color: #{$link-hover};
+  --global-divider-color: rgba(0, 0, 0, 0.15);
+}
+
+html[data-theme="dark"] {
+  --global-theme-color: #4a90d9;
+  --global-hover-color: #6ab0ff;
+  --global-divider-color: rgba(255, 255, 255, 0.15);
+}
+
+// Navigation bar - Navy blue like RAIL Group
+.navbar.navbar-light {
+  background-color: #{$navy-color} !important;
+  border-bottom: 2px solid #{$navy-dark};
+
+  .navbar-brand {
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 1.1rem;
+  }
+
+  .navbar-nav .nav-item .nav-link {
+    color: rgba(255, 255, 255, 0.85);
+    font-size: 0.95rem;
+    padding: 0.5rem 0.75rem;
+    text-transform: lowercase;
+
+    &:hover {
+      color: #ffffff;
+    }
+  }
+
+  .navbar-nav .nav-item.active > .nav-link {
+    color: #ffffff;
+    font-weight: 600;
+  }
+
+  .navbar-nav .nav-item .nav-link i {
+    color: rgba(255, 255, 255, 0.85);
+  }
+
+  #search-toggle {
+    color: rgba(255, 255, 255, 0.85);
+  }
+
+  #light-toggle {
+    color: rgba(255, 255, 255, 0.85);
+  }
+}
+
+// Typography - More academic feel
+body {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+// Links - Classic blue
+a {
+  color: #{$link-color};
+
+  &:hover {
+    color: #{$link-hover};
+  }
+}
+
+// Publications - Clean list style
+.publications {
+  h2 {
+    font-size: 1.4rem;
+    font-weight: 600;
+    border-bottom: 2px solid var(--global-divider-color);
+    padding-bottom: 0.3em;
+    margin-bottom: 1em;
+  }
+
+  .bibliography {
+    .row {
+      margin-bottom: 1.5em;
+    }
+
+    abbr {
+      font-weight: 600;
+    }
+
+    .title {
+      font-weight: 600;
+    }
+
+    .author a {
+      color: var(--global-text-color);
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+// News - Clean timeline
+.news {
+  table {
+    font-size: 0.95rem;
+  }
+
+  .news-title {
+    font-weight: 500;
+  }
+
+  .news-date {
+    color: var(--global-text-color-light);
+    font-size: 0.9rem;
+    white-space: nowrap;
+    padding-right: 1em;
+  }
+}
+
+// Profile section
+.profile {
+  img {
+    border: none;
+    box-shadow: none;
+  }
+}
+
+// Footer
+footer {
+  background-color: var(--global-footer-bg-color);
+  color: var(--global-footer-text-color);
+  font-size: 0.85rem;
+  padding: 1rem 0;
+
+  a {
+    color: var(--global-footer-link-color);
+  }
+}
+
+// Research highlights page
+.research-highlight {
+  margin-bottom: 2em;
+
+  img, video {
+    border: 1px solid var(--global-divider-color);
+  }
+}
+
+// Remove excessive animations
+* {
+  transition-duration: 0.15s !important;
+}
+
+// Back to top button
+#back-to-top {
+  background-color: #{$navy-color} !important;
+}
+
+// Card styling - more subdued
+.card {
+  border: 1px solid var(--global-divider-color);
+  box-shadow: none !important;
+
+  &:hover {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1) !important;
+  }
+}
+
+// Code blocks
+pre.highlight {
+  border: 1px solid var(--global-divider-color);
+  background-color: var(--global-code-bg-color);
+}
+
+// Social icons
+.social {
+  a {
+    margin: 0 0.3em;
+  }
+}
