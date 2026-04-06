@@ -9,9 +9,8 @@ profile:
   image: mengdi.jpg
   image_circular: false
   more_info: >
-    <p>3142 Klaus Building</p>
-    <p>Georgia Institute of Technology</p>
-    <p>Atlanta, GA</p>
+    <p>Ph.D. candidate</p>,
+    <p>Georgia Tech</p>
 
 selected_papers: true
 social: true
