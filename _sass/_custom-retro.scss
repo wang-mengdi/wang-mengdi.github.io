@@ -268,3 +268,11 @@ pre.highlight {
     margin: 0 0.3em;
   }
 }
+
+// Blog post list - title size matches publications
+.post-list {
+  .post-title {
+    font-weight: 600;
+    font-size: 1.1rem;
+  }
+}
