@@ -1,12 +1,9 @@
 ---
-layout: cv
+layout: redirect
 permalink: /cv/
-title: cv
+title: CV
 nav: true
 nav_order: 5
-cv_pdf: resume.pdf
-cv_format: rendercv
+redirect: /assets/pdf/mengdi_cv_en_2604.pdf
 description: Curriculum Vitae
-toc:
-  sidebar: left
 ---
