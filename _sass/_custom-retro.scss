@@ -140,6 +140,49 @@ a {
   img {
     border: none;
     box-shadow: none;
+    max-width: 200px;
+    width: 100%;
+    height: auto;
+  }
+
+  .profile-subtitle {
+    font-size: 0.95rem;
+    color: var(--global-text-color-light);
+    margin-top: 0.5em;
+    margin-bottom: 0.3em;
+    line-height: 1.4;
+  }
+
+  .more-info {
+    font-size: 0.85rem;
+    line-height: 1.5;
+
+    p {
+      margin-bottom: 0.1em;
+      margin-top: 0.1em;
+    }
+  }
+
+  .profile-links {
+    margin-top: 0.5em;
+    font-size: 0.85rem;
+
+    a {
+      display: block;
+      color: var(--global-text-color);
+      text-decoration: none;
+      margin-bottom: 0.2em;
+
+      i {
+        width: 1.2em;
+        margin-right: 0.3em;
+        text-align: center;
+      }
+
+      &:hover {
+        color: var(--global-theme-color);
+      }
+    }
   }
 }
 

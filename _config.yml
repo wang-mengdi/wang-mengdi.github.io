@@ -10,9 +10,7 @@ contact_note: >
   Feel free to reach out via email.
 description: >
   PhD Candidate in Computer Science at Georgia Tech. Research on scalable, GPU-accelerated systems for multiscale physical simulation.
-footer_text: >
-  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+footer_text: ""
 keywords: physical simulation, GPU computing, computer graphics, computational physics, multiscale modeling
 lang: en
 icon: 🔬
