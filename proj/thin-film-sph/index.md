@@ -24,11 +24,14 @@ We propose a particle-based method to simulate thin-film fluid that jointly faci
 
 ## Video
 
+[![Bilibili](https://img.shields.io/badge/bilibili-00A1D6.svg?style=for-the-badge&logo=bilibili&logoColor=white)](https://www.bilibili.com/video/BV199KAzYEUa)
+[![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white)](https://www.youtube.com/watch?v=E5Id1VJ8pqE)
+
 <div style="position: relative; width: 100%; padding-bottom: 56.25%;">
-  <video src="https://dl.acm.org/doi/suppl/10.1145/3450626.3459864/suppl_file/a110-wang.mp4"
-         style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
-         controls muted>
-  </video>
+  <iframe src="https://www.youtube.com/embed/E5Id1VJ8pqE"
+          style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+          frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
 </div>
 
 

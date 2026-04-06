@@ -94,7 +94,8 @@ a {
 
   .bibliography {
     .row {
-      margin-bottom: 1.5em;
+      margin-bottom: 2em;
+      padding-bottom: 1em;
     }
 
     abbr {
@@ -103,6 +104,22 @@ a {
 
     .title {
       font-weight: 600;
+      font-size: 1.1rem;
+    }
+
+    .author {
+      font-size: 1rem;
+    }
+
+    .periodical {
+      font-size: 0.95rem;
+    }
+
+    .links {
+      .btn {
+        font-size: 0.9rem;
+        padding: 0.25rem 0.5rem;
+      }
     }
 
     .author a {
@@ -112,6 +129,12 @@ a {
       &:hover {
         text-decoration: underline;
       }
+    }
+
+    img.preview {
+      max-width: 300px !important;
+      width: 100% !important;
+      height: auto;
     }
   }
 }
@@ -157,6 +180,7 @@ a {
     line-height: 1.5;
 
     p {
+      display: block !important;
       margin-bottom: 0.1em;
       margin-top: 0.1em;
     }
@@ -165,6 +189,7 @@ a {
   .profile-links {
     margin-top: 0.5em;
     font-size: 0.85rem;
+    word-break: break-word;
 
     a {
       display: block;
@@ -183,6 +208,11 @@ a {
       }
     }
   }
+}
+
+// Remove hr dividers in posts
+.post hr {
+  display: none;
 }
 
 // Footer

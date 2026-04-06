@@ -9,10 +9,7 @@ profile:
   image: mengdi.jpg
   image_circular: false
   more_info: >
-    <p>Ph.D. candidate</p>
-    <p>Georgia Institute of Technology</p>
-    <p><a href="mailto:mengdi.wang@gatech.edu"><i class="fa-solid fa-envelope"></i> mengdi.wang@gatech.edu</a></p>
-    <p><a href="https://scholar.google.com/citations?user=-5AeATsAAAAJ" target="_blank"><i class="ai ai-google-scholar"></i> Google Scholar</a></p>
+    <p>Ph.D. candidate</p><p>Georgia Institute of Technology</p><p><a href="mailto:mengdi.wang@gatech.edu"><i class="fa-solid fa-envelope"></i> mengdi.wang@gatech.edu</a></p><p><a href="https://scholar.google.com/citations?user=-5AeATsAAAAJ" target="_blank"><i class="ai ai-google-scholar"></i> Google Scholar</a></p>
 
 selected_papers: true
 social: true
