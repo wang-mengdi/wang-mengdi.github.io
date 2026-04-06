@@ -1,6 +1,6 @@
 ---
 layout: page
-title: meso
+title: MESO
 description: Modern GPU Fluid Simulator in C++ and CUDA
 importance: 2
 category: eulerian-fluid-simulation
