@@ -269,10 +269,10 @@ pre.highlight {
   }
 }
 
-// Blog post list - title size matches publications
+// Blog post list - title size matches publications, no bold
 .post-list {
   .post-title {
-    font-weight: 600;
+    font-weight: normal;
     font-size: 1.1rem;
   }
 }
