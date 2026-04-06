@@ -36,15 +36,13 @@ We propose a particle-based method to simulate thin-film fluid that jointly faci
 ## Citation
 ```
 @article{wang2021thin,
-  title={Thin-Film Smoothed Particle Hydrodynamics Fluid},
-  author = {Mengdi Wang and Yitong Deng and Xiangxin Kong and Aditya H. Prasad and Shiying Xiong and Bo Zhu},
-  itle = {Thin-Film Smoothed Particle Hydrodynamics Fluid},
+  title={Thin-film smoothed particle hydrodynamics fluid},
+  author={Wang, Mengdi and Deng, Yitong and Kong, Xiangxin and Prasad, Aditya H and Xiong, Shiying and Zhu, Bo},
   journal={ACM Transactions on Graphics (TOG)},
   volume={40},
   number={4},
   pages={1--16},
   year={2021},
-  publisher={ACM},
-  address = {New York, NY, USA}
+  publisher={ACM New York, NY, USA}
 }
 ```

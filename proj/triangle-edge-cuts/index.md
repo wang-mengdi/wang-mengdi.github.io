@@ -43,12 +43,13 @@ This paper introduces a volume-conserving interface tracking algorithm on unstru
 
 ## Citation
 ```
-@article{wang2024interface,
-  title={An Interface Tracking Method with Triangle Edge Cuts},
+@article{wang2025interface,
+  title={An interface tracking method with triangle edge cuts},
   author={Wang, Mengdi and Cong, Matthew and Zhu, Bo},
   journal={Journal of Computational Physics},
+  volume={520},
   pages={113504},
-  year={2024},
+  year={2025},
   publisher={Elsevier}
 }
 ```
