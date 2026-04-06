@@ -9,10 +9,50 @@ _site
 .tweet-cache
 .venv
 assets/libs/
-assets/rendercv/rendercv_output/*.typ
+assets/rendercv/rendercv_output/
 Gemfile.lock
 node_modules/
 vendor
 .vscode/
 *.sublime-project
 *.sublime-workspace
+
+# Template example content
+_books/
+_posts/
+_teachings/
+assets/audio/
+assets/html/
+assets/json/table_data.json
+assets/jupyter/
+assets/pdf/
+assets/video/
+
+# Template docs and previews
+lighthouse_results/
+readme_preview/
+homepage-optimization-plan.md
+
+# AI assistant configs
+.gemini/
+.all-contributorsrc
+
+# Link checker
+.lycheeignore
+
+# Template docs (al-folio upstream docs, not needed for personal site)
+AGENTS.md
+ANALYTICS.md
+CLAUDE.md
+CONTRIBUTING.md
+CUSTOMIZE.md
+FAQ.md
+INSTALL.md
+QUICKSTART.md
+README.md
+SEO.md
+TROUBLESHOOTING.md
+.devcontainer/
+.git-blame-ignore-revs
+.gitattributes
+.prettierrc
