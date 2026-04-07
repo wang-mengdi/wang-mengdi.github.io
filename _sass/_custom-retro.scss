@@ -18,7 +18,7 @@ $link-hover: #004499;
   --global-hover-color: #{$link-hover};
   --global-divider-color: rgba(0, 0, 0, 0.15);
   --font-serif: 'Playfair Display', Georgia, 'Times New Roman', serif;
-  --font-sans: 'Source Sans 3', 'Helvetica Neue', Arial, sans-serif;
+  --font-body: 'Source Serif 4', Georgia, 'Times New Roman', serif;
 }
 
 html[data-theme="dark"] {
@@ -27,13 +27,13 @@ html[data-theme="dark"] {
   --global-divider-color: rgba(255, 255, 255, 0.15);
 }
 
-// Typography: Playfair Display for headings, Source Sans 3 for body
+// Typography: Playfair Display for headings, Source Serif 4 for body
 h1, h2, h3, h4, h5, h6, .navbar-brand, .profile-name {
   font-family: var(--font-serif) !important;
 }
 
 body, p, li, td, th, span, div {
-  font-family: var(--font-sans) !important;
+  font-family: var(--font-body) !important;
 }
 
 // Navigation bar - Navy blue like RAIL Group
@@ -85,6 +85,11 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 600;
   margin-top: 1.5em;
   margin-bottom: 0.5em;
+}
+
+// Fix top margin for main page title
+.post-title {
+  margin-top: 0 !important;
 }
 
 // Links - Classic blue
@@ -229,14 +234,22 @@ a {
   display: none;
 }
 
-// No whitespace below footer
+// Sticky footer using flexbox
 body {
+  display: flex !important;
+  flex-direction: column !important;
+  min-height: 100vh !important;
   padding-bottom: 0 !important;
   margin-bottom: 0 !important;
 }
 
+.container[role="main"] {
+  flex: 1 0 auto !important;
+}
+
 // Footer
 footer {
+  flex-shrink: 0 !important;
   background-color: var(--global-footer-bg-color);
   color: var(--global-footer-text-color);
   font-size: 0.85rem;
