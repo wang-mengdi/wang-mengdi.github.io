@@ -17,12 +17,23 @@ $link-hover: #004499;
   --global-theme-color: #{$navy-color};
   --global-hover-color: #{$link-hover};
   --global-divider-color: rgba(0, 0, 0, 0.15);
+  --font-serif: 'Playfair Display', Georgia, 'Times New Roman', serif;
+  --font-sans: 'Source Sans 3', 'Helvetica Neue', Arial, sans-serif;
 }
 
 html[data-theme="dark"] {
   --global-theme-color: #4a90d9;
   --global-hover-color: #6ab0ff;
   --global-divider-color: rgba(255, 255, 255, 0.15);
+}
+
+// Typography: Playfair Display for headings, Source Sans 3 for body
+h1, h2, h3, h4, h5, h6, .navbar-brand, .profile-name {
+  font-family: var(--font-serif) !important;
+}
+
+body, p, li, td, th, span, div {
+  font-family: var(--font-sans) !important;
 }
 
 // Navigation bar - Navy blue like RAIL Group
