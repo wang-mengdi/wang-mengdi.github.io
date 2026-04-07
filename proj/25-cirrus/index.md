@@ -106,16 +106,4 @@ A bat with complex mesh flapping its wings.
 </div>
 
 
-## Citation
-```
-@article{wang2025cirrus,
-  title={Cirrus: Adaptive Hybrid Particle-Grid Flow Maps on GPU},
-  author={Wang, Mengdi and Feng, Fan and Li, Junlin and Zhu, Bo},
-  journal={ACM Transactions on Graphics (TOG)},
-  volume={44},
-  number={4},
-  pages={1--17},
-  year={2025},
-  publisher={ACM New York, NY, USA}
-}
-```
+
