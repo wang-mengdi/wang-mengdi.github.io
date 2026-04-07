@@ -10,10 +10,10 @@ contact_note: >
   Feel free to reach out via email.
 description: >
   PhD Candidate in Computer Science at Georgia Tech. Research on scalable, GPU-accelerated systems for multiscale physical simulation.
-footer_text: "Unknown unknowns"
+footer_text: 
 keywords: physical simulation, GPU computing, computer graphics, computational physics, multiscale modeling
 lang: en
-icon: 🔬
+icon: favicon-32x32.png
 
 url: https://wang-mengdi.github.io
 baseurl:
@@ -51,7 +51,7 @@ external_services:
 # -----------------------------------------------------------------------------
 
 navbar_fixed: true
-footer_fixed: false
+footer_fixed: true
 search_enabled: false
 socials_in_search: false
 posts_in_search: true
