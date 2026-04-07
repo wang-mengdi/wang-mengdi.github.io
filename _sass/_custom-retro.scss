@@ -66,17 +66,17 @@ div {
   }
 
   .navbar-nav .nav-item .nav-link {
-    color: rgba(255, 255, 255, 0.85);
+    color: rgba(255, 255, 255, 0.85) !important;
     font-size: 0.95rem;
     padding: 0.5rem 0.75rem;
 
     &:hover {
-      color: #ffffff;
+      color: #ffffff !important;
     }
   }
 
   .navbar-nav .nav-item.active > .nav-link {
-    color: #ffffff;
+    color: #ffffff !important;
     font-weight: 600;
   }
 
