@@ -7,8 +7,11 @@
 // Theme colors - Navy blue for retro academic feel
 $navy-color: #1a3c5a;
 $navy-dark: #0f2740;
+// $navy-color: #00703c;
+// $navy-dark: #12312b;
 $link-color: #0066cc;
 $link-hover: #004499;
+//$dartmouth-green: #00703c;
 
 :root {
   --global-theme-color: #{$navy-color};
@@ -215,12 +218,20 @@ a {
   display: none;
 }
 
+// No whitespace below footer
+body {
+  padding-bottom: 0 !important;
+  margin-bottom: 0 !important;
+}
+
 // Footer
 footer {
   background-color: var(--global-footer-bg-color);
   color: var(--global-footer-text-color);
   font-size: 0.85rem;
-  padding: 1rem 0;
+  padding: 0;
+  margin: 0;
+  display: block;
 
   a {
     color: var(--global-footer-link-color);
