@@ -17,8 +17,7 @@ MathJax = {
 </script>
 <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" id="MathJax-script"></script>
 
-# *Cirrus*: Adaptive Hybrid Particle-Grid Flow Maps on GPU
-
+# _Cirrus_: Adaptive Hybrid Particle-Grid Flow Maps on GPU
 
 [**Mengdi Wang<sup>1</sup>** ](../../), [Fan Feng<sup>2</sup>](https://sking8.github.io/), Junlin Li<sup>1</sup>, [Bo Zhu<sup>1</sup>](https://www.cs.dartmouth.edu/~bozhu/)
 <br />
@@ -28,7 +27,6 @@ MathJax = {
 <br />
 ACM Transactions on Graphics (Proceedings of SIGGRAPH 2025)
 <br />
-
 
 [![webpage](https://img.shields.io/badge/Project-Homepage-green)](.)
 [![preprint](https://img.shields.io/badge/Paper-Preprint-red)](./cirrus-preprint.pdf)
@@ -40,8 +38,7 @@ ACM Transactions on Graphics (Proceedings of SIGGRAPH 2025)
 </figure>
 <br />
 
-**Simulating large-scale fluids with incredible detail just got easier.** Meet *Cirrus*, our high-performance GPU simulator for high-resolution fluid simulations. By combining particles and adaptive grids in a new hybrid flow-map scheme, Cirrus uniquely preserves fine vortex details while achieving substantial efficiency gains—up to 100×—compared to uniform-grid methods. Our framework supports simulations up to `512×512×2048` resolution on a single RTX 4090 GPU, delivering both speed and quality in a single system. See the results below or try with our [open-source code](https://github.com/wang-mengdi/Cirrus)!
-
+**Simulating large-scale fluids with incredible detail just got easier.** Meet _Cirrus_, our high-performance GPU simulator for high-resolution fluid simulations. By combining particles and adaptive grids in a new hybrid flow-map scheme, Cirrus uniquely preserves fine vortex details while achieving substantial efficiency gains—up to 100×—compared to uniform-grid methods. Our framework supports simulations up to `512×512×2048` resolution on a single RTX 4090 GPU, delivering both speed and quality in a single system. See the results below or try with our [open-source code](https://github.com/wang-mengdi/Cirrus)!
 
 ## Abstract
 
@@ -60,7 +57,7 @@ We construct an octree-based adaptive grid on the GPU using 8×8×8 tiles as the
 
 ### Racing Car
 
-The computational domain is $1\times 1\times 2$ with effective resolution $512\times 512\times 1024$. The inflow and outflow are $\mathbf u=(0,0,1)$ and the length of the car is $0.9$ in the z-axis. 
+The computational domain is $1\times 1\times 2$ with effective resolution $512\times 512\times 1024$. The inflow and outflow are $\mathbf u=(0,0,1)$ and the length of the car is $0.9$ in the z-axis.
 
 <video width="100%" controls autoplay muted playsinline loop preload="auto">
   <source src="oracle_smoke_1080p.mp4" type="video/mp4">
@@ -73,7 +70,6 @@ A WP-3D aircraft model in flow $(0,0,1)$ with $4$ rotating propellers at a 15-de
 <video width="100%" controls autoplay muted playsinline loop preload="auto">
   <source src="wp3drot1.0-smoke.mp4" type="video/mp4">
 </video>
-
 
 ### Flamingo Flock
 
@@ -91,8 +87,6 @@ A bat with complex mesh flapping its wings.
   <source src="bat1.1-vorticity.mp4" type="video/mp4">
 </video>
 
-
-
 ## Video
 
 [![Bilibili](https://img.shields.io/badge/bilibili-00A1D6.svg?style=for-the-badge&logo=bilibili&logoColor=white)](https://www.bilibili.com/video/BV12gExzjESa)
@@ -104,6 +98,3 @@ A bat with complex mesh flapping its wings.
           frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen></iframe>
 </div>
-
-
-

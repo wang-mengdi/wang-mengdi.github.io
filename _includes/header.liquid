@@ -107,7 +107,13 @@
                   {%- else -%}
                     {%- assign url = p.url -%}
                   {%- endif %}
-                  <a class="nav-link" href="{{ url | relative_url }}"{% if p.target %} target="{{ p.target }}"{% endif %}>
+                  <a
+                    class="nav-link"
+                    href="{{ url | relative_url }}"
+                    {% if p.target %}
+                      target="{{ p.target }}"
+                    {% endif %}
+                  >
                     {{- p.title }}
                     {% if page.url contains p.url %}
                       <span class="sr-only">(current)</span>

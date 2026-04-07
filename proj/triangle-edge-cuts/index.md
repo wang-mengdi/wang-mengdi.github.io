@@ -39,6 +39,3 @@ This paper introduces a volume-conserving interface tracking algorithm on unstru
 ### Deformation Test
 
 <img src="./resources/deformation-test.png" width="60%">
-
-
-

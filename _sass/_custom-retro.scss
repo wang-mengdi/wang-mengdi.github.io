@@ -18,8 +18,8 @@ $link-hover: #004499;
   --global-hover-color: #{$link-hover};
   --global-divider-color: rgba(0, 0, 0, 0.15);
   --global-text-color: #111111; // Darker text for readability
-  --font-serif: 'Playfair Display', Georgia, 'Times New Roman', serif;
-  --font-body: 'Lora', Georgia, 'Times New Roman', serif;
+  --font-serif: "Playfair Display", Georgia, "Times New Roman", serif;
+  --font-body: "Lora", Georgia, "Times New Roman", serif;
 }
 
 html[data-theme="dark"] {
@@ -29,11 +29,24 @@ html[data-theme="dark"] {
 }
 
 // Typography: Playfair Display for headings, Source Serif 4 for body
-h1, h2, h3, h4, h5, h6, .navbar-brand, .profile-name {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.navbar-brand,
+.profile-name {
   font-family: var(--font-serif) !important;
 }
 
-body, p, li, td, th, span, div {
+body,
+p,
+li,
+td,
+th,
+span,
+div {
   font-family: var(--font-body) !important;
 }
 
@@ -86,7 +99,12 @@ body {
   line-height: 1.6;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-weight: 600;
   margin-top: 1.5em;
   margin-bottom: 0.5em;
@@ -260,6 +278,7 @@ body {
 
 .container[role="main"] {
   flex: 1 0 auto !important;
+  padding-bottom: 3rem !important;
 }
 
 // Footer
@@ -281,7 +300,8 @@ footer {
 .research-highlight {
   margin-bottom: 2em;
 
-  img, video {
+  img,
+  video {
     border: 1px solid var(--global-divider-color);
   }
 }
