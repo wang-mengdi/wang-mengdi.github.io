@@ -17,8 +17,9 @@ $link-hover: #004499;
   --global-theme-color: #{$navy-color};
   --global-hover-color: #{$link-hover};
   --global-divider-color: rgba(0, 0, 0, 0.15);
+  --global-text-color: #111111; // Darker text for readability
   --font-serif: 'Playfair Display', Georgia, 'Times New Roman', serif;
-  --font-body: 'Source Serif 4', Georgia, 'Times New Roman', serif;
+  --font-body: 'Lora', Georgia, 'Times New Roman', serif;
 }
 
 html[data-theme="dark"] {
@@ -42,9 +43,13 @@ body, p, li, td, th, span, div {
   border-bottom: 2px solid #{$navy-dark};
 
   .navbar-brand {
-    color: #ffffff;
+    color: #ffffff !important;
     font-weight: 600;
     font-size: 1.1rem;
+
+    span {
+      color: #ffffff !important;
+    }
   }
 
   .navbar-nav .nav-item .nav-link {
