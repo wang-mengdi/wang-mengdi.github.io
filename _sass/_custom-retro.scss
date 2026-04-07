@@ -239,6 +239,16 @@ a {
   display: none;
 }
 
+// Projects categories
+.projects {
+  h2.category {
+    color: var(--global-text-color);
+    font-weight: 600;
+    text-align: left;
+    border-bottom: 2px solid var(--global-divider-color);
+  }
+}
+
 // Sticky footer using flexbox
 body {
   display: flex !important;

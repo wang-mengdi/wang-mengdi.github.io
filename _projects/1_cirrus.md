@@ -6,5 +6,5 @@ img: assets/img/publication_preview/cirrus-preview.jpg
 importance: 1
 category: eulerian-fluid-simulation
 github: https://github.com/wang-mengdi/Cirrus
-redirect: https://wang-mengdi.github.io/proj/25-cirrus/
+redirect: https://github.com/wang-mengdi/Cirrus
 ---
