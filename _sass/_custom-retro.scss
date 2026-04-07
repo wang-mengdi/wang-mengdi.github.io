@@ -44,9 +44,7 @@ body,
 p,
 li,
 td,
-th,
-span,
-div {
+th {
   font-family: var(--font-body) !important;
 }
 
@@ -54,6 +52,9 @@ div {
 .navbar.navbar-light {
   background-color: #{$navy-color} !important;
   border-bottom: 2px solid #{$navy-dark};
+  // Override global text color CSS variable for all navbar children
+  --global-text-color: #ffffff;
+  --global-hover-color: #ffffff;
 
   .navbar-brand {
     color: #ffffff !important;
