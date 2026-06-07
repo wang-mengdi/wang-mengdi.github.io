@@ -9,7 +9,7 @@ profile:
   image: mengdi.jpg
   image_circular: false
   more_info: >
-    <p>王梦迪 | Ph.D. candidate</p><p>Georgia Institute of Technology</p><p><a href="mailto:mengdi.wang@gatech.edu"><i class="fa-solid fa-envelope"></i> mengdi.wang@gatech.edu</a></p><p><a href="https://scholar.google.com/citations?user=-5AeATsAAAAJ" target="_blank"><i class="ai ai-google-scholar"></i> Google Scholar</a></p>
+    <p>王梦迪 | Ph.D.</p><p>Georgia Institute of Technology</p><p><a href="mailto:mengdi.wang@gatech.edu"><i class="fa-solid fa-envelope"></i> mengdi.wang@gatech.edu</a></p><p><a href="https://scholar.google.com/citations?user=-5AeATsAAAAJ" target="_blank"><i class="ai ai-google-scholar"></i> Google Scholar</a></p>
 
 selected_papers: true
 social: true
@@ -23,7 +23,7 @@ latest_posts:
   enabled: false
 ---
 
-I am a Ph.D. candidate in Computer Science at Georgia Tech, advised by Prof. [Bo Zhu](https://faculty.cc.gatech.edu/~bozhu/). I received my Bachelor degree of Computer Science at Peking University in 2020, advised by Prof. [Baoquan Chen](https://cfcs.pku.edu.cn/baoquan/). My research focuses on building scalable, GPU-accelerated systems for multiscale physical simulation.
+I am a Ph.D. in Computer Science at Georgia Tech, advised by Prof. [Bo Zhu](https://faculty.cc.gatech.edu/~bozhu/). I received my Bachelor degree of Computer Science at Peking University in 2020, advised by Prof. [Baoquan Chen](https://cfcs.pku.edu.cn/baoquan/). My research focuses on building scalable, GPU-accelerated systems for multiscale physical simulation.
 
 My work spans the full simulation pipeline, from physical representation and interface modeling, to transport algorithms and large-scale solvers. I have developed methods for codimensional particle-based modeling and sub-grid interface tracking, explored hybrid particle-grid formulations for low-dissipation transport, and designed adaptive, matrix-free multigrid solvers on GPUs for large-scale simulation.
 
