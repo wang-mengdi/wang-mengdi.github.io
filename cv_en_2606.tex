@@ -1,0 +1,726 @@
+\documentclass[10pt, letterpaper]{article}
+
+
+\usepackage{iftex}
+
+\iffalse
+\ifXeTeX
+    \usepackage{fontspec}
+    \setmainfont{Noto Serif CJK SC} % 可以改为系统支持的中文字体
+\else
+    \ifLuaTeX
+        \usepackage{fontspec}
+        \setmainfont{Noto Serif CJK SC} % 适用于 LuaLaTeX
+    \else
+        \usepackage[T1]{fontenc}
+        \usepackage[utf8]{inputenc}
+        \usepackage[english]{babel}
+    \fi
+\fi
+\fi
+
+% Packages:
+\usepackage[
+    ignoreheadfoot, % set margins without considering header and footer
+    top=2 cm, % seperation between body and page edge from the top
+    bottom=2 cm, % seperation between body and page edge from the bottom
+    left=2 cm, % seperation between body and page edge from the left
+    right=2 cm, % seperation between body and page edge from the right
+    footskip=1.0 cm, % seperation between body and footer
+    % showframe % for debugging 
+]{geometry} % for adjusting page geometry
+\usepackage{titlesec} % for customizing section titles
+\usepackage{tabularx} % for making tables with fixed width columns
+\usepackage{array} % tabularx requires this
+\usepackage[dvipsnames]{xcolor} % for coloring text
+\definecolor{primaryColor}{RGB}{0, 79, 144} % define primary color
+\usepackage{enumitem} % for customizing lists
+\usepackage{fontawesome5} % for using icons
+\usepackage{amsmath} % for math
+\usepackage[
+    pdftitle={Mengdi Wang's CV},
+    pdfauthor={Mengdi Wang},
+    pdfcreator={LaTeX with RenderCV},
+    colorlinks=true,
+    urlcolor=primaryColor
+]{hyperref} % for links, metadata and bookmarks
+\usepackage[pscoord]{eso-pic} % for floating text on the page
+\usepackage{calc} % for calculating lengths
+\usepackage{bookmark} % for bookmarks
+\usepackage{lastpage} % for getting the total number of pages
+\usepackage{changepage} % for one column entries (adjustwidth environment)
+\usepackage{paracol} % for two and three column entries
+\usepackage{ifthen} % for conditional statements
+\usepackage{needspace} % for avoiding page brake right after the section title
+\usepackage{iftex} % check if engine is pdflatex, xetex or luatex
+\usepackage{comment}
+\usepackage{graphicx}
+\usepackage[UTF8]{ctex}   % 支持中文
+
+% Ensure that generate pdf is machine readable/ATS parsable:
+\ifPDFTeX
+    \input{glyphtounicode}
+    \pdfgentounicode=1
+    % \usepackage[T1]{fontenc} % this breaks sb2nov
+    \usepackage[utf8]{inputenc}
+    \usepackage{lmodern}
+\fi
+
+
+
+% Some settings:
+\AtBeginEnvironment{adjustwidth}{\partopsep0pt} % remove space before adjustwidth environment
+\pagestyle{empty} % no header or footer
+\setcounter{secnumdepth}{0} % no section numbering
+\setlength{\parindent}{0pt} % no indentation
+\setlength{\topskip}{0pt} % no top skip
+\setlength{\columnsep}{0cm} % set column seperation
+\makeatletter
+\let\ps@customFooterStyle\ps@plain % Copy the plain style to customFooterStyle
+\patchcmd{\ps@customFooterStyle}{\thepage}{
+    \color{gray}\textit{\small Mengdi Wang - Page \thepage{} of \pageref*{LastPage}}
+}{}{} % replace number by desired string
+\makeatother
+\pagestyle{customFooterStyle}
+
+\titleformat{\section}{\needspace{4\baselineskip}\bfseries\large}{}{0pt}{}[\vspace{1pt}\titlerule]
+
+\titlespacing{\section}{
+    % left space:
+    -1pt
+}{
+    % top space:
+    0.3 cm
+}{
+    % bottom space:
+    0.2 cm
+} % section title spacing
+
+\renewcommand\labelitemi{$\circ$} % custom bullet points
+\newenvironment{highlights}{
+    \begin{itemize}[
+        topsep=0.10 cm,
+        parsep=0.10 cm,
+        partopsep=0pt,
+        itemsep=0pt,
+        leftmargin=0.4 cm + 10pt
+    ]
+}{
+    \end{itemize}
+} % new environment for highlights
+
+\newenvironment{highlightsforbulletentries}{
+    \begin{itemize}[
+        topsep=0.10 cm,
+        parsep=0.10 cm,
+        partopsep=0pt,
+        itemsep=0pt,
+        leftmargin=10pt
+    ]
+}{
+    \end{itemize}
+} % new environment for highlights for bullet entries
+
+
+\newenvironment{onecolentry}{
+    \begin{adjustwidth}{
+        0.2 cm + 0.00001 cm
+    }{
+        0.2 cm + 0.00001 cm
+    }
+}{
+    \end{adjustwidth}
+} % new environment for one column entries
+
+\newenvironment{twocolentry}[2][]{
+    \onecolentry
+    \def\secondColumn{#2}
+    \setcolumnwidth{\fill, 4.5 cm}
+    \begin{paracol}{2}
+}{
+    \switchcolumn \raggedleft \secondColumn
+    \end{paracol}
+    \endonecolentry
+} % new environment for two column entries
+
+\newenvironment{header}{
+    \setlength{\topsep}{0pt}\par\kern\topsep\centering\linespread{1.5}
+}{
+    \par\kern\topsep
+} % new environment for the header
+
+\newcommand{\placelastupdatedtext}{% \placetextbox{<horizontal pos>}{<vertical pos>}{<stuff>}
+  \AddToShipoutPictureFG*{% Add <stuff> to current page foreground
+    \put(
+        \LenToUnit{\paperwidth-2 cm-0.2 cm+0.05cm},
+        \LenToUnit{\paperheight-1.0 cm}
+    ){\vtop{{\null}\makebox[0pt][c]{
+        \small\color{gray}\textit{Last updated in September 2026}\hspace{\widthof{Last updated in September 2026}}
+    }}}%
+  }%
+}%
+
+% save the original href command in a new command:
+\let\hrefWithoutArrow\href
+
+% new command for external links:
+\renewcommand{\href}[2]{\hrefWithoutArrow{#1}{\ifthenelse{\equal{#2}{}}{ }{#2 }\raisebox{.15ex}{\footnotesize \faExternalLink*}}}
+
+
+\begin{document}
+    \newcommand{\AND}{\unskip
+        \cleaders\copy\ANDbox\hskip\wd\ANDbox
+        \ignorespaces
+    }
+    \newsavebox\ANDbox
+    \sbox\ANDbox{}
+
+    %\placelastupdatedtext
+
+    \begin{header}
+        \noindent
+            \centering
+            % 姓名
+            \textbf{\fontsize{24 pt}{24 pt}\selectfont Mengdi Wang}
+    
+            \vspace{0.12 cm}
+
+            {\large Postdoctoral Fellow, University of British Columbia}
+
+            \vspace{0.20 cm}
+    
+            % 联系方式
+            \normalsize
+            \mbox{{\color{black}\footnotesize\faMapMarker*}\hspace*{0.13cm}Vancouver, BC, Canada}%
+            \kern 0.25 cm%
+            \AND%
+            \kern 0.25 cm%
+            \mbox{\hrefWithoutArrow{mailto:m.wang.13@outlook.com}{\color{black}{\footnotesize\faEnvelope[regular]}\hspace*{0.13cm}m.wang.13@outlook.com}}%
+            \kern 0.25 cm%
+            \AND%
+            \kern 0.25 cm%
+            \mbox{\hrefWithoutArrow{tel:+16033221138}{\color{black}{\footnotesize\faPhone*}\hspace*{0.13cm}6033221138}}%
+            \kern 0.25 cm%
+            \AND%
+            \kern 0.25 cm%
+            \mbox{\hrefWithoutArrow{https://wang-mengdi.github.io/}{\color{black}{\footnotesize\faLink}\hspace*{0.13cm}wang-mengdi.github.io}}%
+            \kern 0.25 cm%
+            % \AND%
+            % \kern 0.25 cm%
+            % \mbox{{\color{black}\footnotesize\faFlag}\hspace*{0.13cm}Nationality: China}%
+            % \kern 0.25 cm%
+            % \AND%
+            % \kern 0.25 cm%
+            % \mbox{{\color{black}\footnotesize\faBirthdayCake}\hspace*{0.13cm}DoB: May 20, 1998}%
+            % \kern 0.25 cm%
+            %\AND%
+            %\kern 0.25 cm%
+            % \mbox{\hrefWithoutArrow{https://www.linkedin.com/in/mengdi-wang-cg/}{\color{black}{\footnotesize\faLinkedinIn}\hspace*{0.13cm}mengdi-wang-cg}}%
+            % \kern 0.25 cm%
+            % \AND%
+            % \kern 0.25 cm%
+            % \mbox{\hrefWithoutArrow{https://github.com/wang-mengdi}{\color{black}{\footnotesize\faGithub}\hspace*{0.13cm}wang-mengdi}}%
+    \end{header}
+    
+    
+    % \begin{header}
+    %     \noindent
+
+    %     \textbf{\fontsize{24 pt}{24 pt}\selectfont Mengdi Wang}
+
+    %     \vspace{0.3 cm}
+
+    %     \normalsize
+    %     \mbox{{\color{black}\footnotesize\faMapMarker*}\hspace*{0.13cm}915 West Peachtree St NW Apt 14104, Atlanta GA 30309}%
+    %     \kern 0.25 cm%
+    %     \AND%
+    %     \kern 0.25 cm%
+    %     \mbox{\hrefWithoutArrow{mailto:m.wang.13@outlook.com}{\color{black}{\footnotesize\faEnvelope[regular]}\hspace*{0.13cm}m.wang.13@outlook.com}}%
+    %     \kern 0.25 cm%
+    %     \AND%
+    %     \kern 0.25 cm%
+    %     \mbox{\hrefWithoutArrow{tel:+16033221138}{\color{black}{\footnotesize\faPhone*}\hspace*{0.13cm}6033221138}}%
+    %     \kern 0.25 cm%
+    %     \AND%
+    %     \kern 0.25 cm%
+    %     \mbox{\hrefWithoutArrow{https://wang-mengdi.github.io/}{\color{black}{\footnotesize\faLink}\hspace*{0.13cm}https://wang-mengdi.github.io/}}%
+    %     \kern 0.25 cm%
+    %     \AND%
+    %     \kern 0.25 cm%
+    %     \mbox{\hrefWithoutArrow{https://www.linkedin.com/in/mengdi-wang-cg/}{\color{black}{\footnotesize\faLinkedinIn}\hspace*{0.13cm}mengdi-wang-cg}}%
+    %     \kern 0.25 cm%
+    %     \AND%
+    %     \kern 0.25 cm%
+    %     \mbox{\hrefWithoutArrow{https://github.com/wang-mengdi}{\color{black}{\footnotesize\faGithub}\hspace*{0.13cm}wang-mengdi}}%
+    % \end{header}
+
+    \vspace{0.3 cm - 0.3 cm}
+
+
+    \section{Research Summary}
+
+        \begin{onecolentry}
+            %My research develops scalable numerical algorithms and GPU-based systems for multiscale physical simulation, focusing on unified frameworks that integrate representation, transport, and solver design, with emerging directions in AI-assisted and physics-embedded modeling for adaptive and interactive simulation.\\
+            My research develops multiscale representations, interface and transport algorithms, and adaptive GPU solvers for physical simulation, while exploring simulation as a two-way interface between AI and the real world: AI expands what can be simulated, and physics provides testable principles for reliable, human-centered intelligent systems.\\
+            \textbf{Research Areas}: Physical Simulation, Computer Graphics, Scientific Computing, GPU Computing, Scientific Machine Learning
+        \end{onecolentry}
+
+
+        %\vspace{0.2 cm}
+
+        %\begin{onecolentry}
+        %    The boilerplate content was inspired by \href{https://github.com/dnl-%blkv/mcdowell-cv}{Gayle McDowell}.
+        %\end{onecolentry}
+
+
+    \iffalse% comment out
+    \section{Quick Guide}
+
+    \begin{onecolentry}
+        \begin{highlightsforbulletentries}
+
+
+        \item Each section title is arbitrary and each section contains a list of entries.
+
+        \item There are 7 unique entry types: \textit{BulletEntry}, \textit{TextEntry}, \textit{EducationEntry}, \textit{ExperienceEntry}, \textit{NormalEntry}, \textit{PublicationEntry}, and \textit{OneLineEntry}.
+
+        \item Select a section title, pick an entry type, and start writing your section!
+
+        \item \href{https://docs.rendercv.com/user_guide/}{Here}, you can find a comprehensive user guide for RenderCV.
+
+
+        \end{highlightsforbulletentries}
+    \end{onecolentry}
+    \fi
+
+    \section{Academic Appointments}
+
+        \begin{twocolentry}{
+        2026.9 - Present}
+            \textbf{University of British Columbia}, Postdoctoral Fellow
+        \end{twocolentry}
+
+        \vspace{0.10 cm}
+        \begin{onecolentry}
+            \begin{highlights}
+                \item Department of Computer Science, PhysAI Lab, working with Prof. Peter Yichen Chen
+            \end{highlights}
+        \end{onecolentry}
+
+
+    \section{Education}
+
+        \begin{twocolentry}{
+            
+            
+        2024.1 - 2026.5}
+            \textbf{Georgia Institute of Technology}, Ph.D. in Computer Science 
+
+            %\textit{PhD of Computer Science}
+        \end{twocolentry}
+
+        \vspace{0.10 cm}
+        \begin{onecolentry}
+            \begin{highlights}
+                \item School of Interactive Computing, advised by Prof. Bo Zhu
+                %, advised by Prof. Bo Zhu.
+                %\item GPA: 3.9/4.0 (\href{https://example.com}{a link to somewhere})
+                %\item \textbf{Coursework:} Computer Architecture, Comparison of Learning Algorithms, Computational Theory
+                %\item Ph.D.'s thesis: \textit{High-Performance Multiscale Fluid Simulation: GPU-Based Representations, Solvers, and Adaptive Algorithms}
+            \end{highlights}
+        \end{onecolentry}
+
+        \begin{twocolentry}{
+        2020.9 - 2023.12}
+            \textbf{Dartmouth College}, Ph.D. Program in Computer Science (Transferred)
+        \end{twocolentry}
+        \vspace{0.10 cm}
+        \begin{onecolentry}
+            \begin{highlights}
+                \item Guarini School of Graduate and Advanced Studies, advised by Prof. Bo Zhu
+                %\item Area: Computer Graphics
+                %\item Guarini School, advised by Prof. Bo Zhu.
+                %\item GPA: 3.9/4.0 (\href{https://example.com}{a link to somewhere})
+                %\item \textbf{Coursework:} Computer Architecture, Comparison of Learning Algorithms, Computational Theory
+            \end{highlights}
+        \end{onecolentry}
+
+        \begin{twocolentry}{
+        2016.9 - 2020.6}
+        \textbf{Peking University}, B.S. in Computer Science, \textit{summa cum laude}
+        \end{twocolentry}
+        \vspace{0.10 cm}
+        \begin{onecolentry}
+            \begin{highlights}
+                \item Center on Frontiers of Computing Studies, advised by Prof. Baoquan Chen
+                %\item Research assistant in the Center on Frontiers of Computing Studies advised by Prof. Baoquan Chen.
+                %\item Bachelor's thesis: \textit{A Fluid-Solid Coupling Simulation Algorithm Based on Immersed Boundary Method}
+                %\item GPA: 3.9/4.0 (\href{https://example.com}{a link to somewhere})
+                %\item \textbf{Coursework:} Computer Architecture, Comparison of Learning Algorithms, Computational Theory
+            \end{highlights}
+        \end{onecolentry}
+
+
+        % \begin{twocolentry}{
+        % 2013.9 - 2016.6}
+        % \textbf{Henan Experimental High School}
+        % \end{twocolentry}
+        
+
+
+    
+
+    
+\section{Publications}
+
+    \begin{samepage}
+        \begin{twocolentry}{
+            JCP 2026 (in submission)
+        }
+            \textbf{Matrix-Free GPU Implementation of Algebraic Multigrid Poisson Solver on Adaptive Octree with Irregular Domains}
+
+            \vspace{0.10 cm}
+
+            \textit{Mengdi Wang}, Yuchen Sun, Bo Zhu
+        \end{twocolentry}
+
+        \vspace{0.10 cm}
+    
+        \begin{twocolentry}{
+            SIGGRAPH 2025
+        }
+            \textbf{Cirrus: Adaptive Hybrid Particle-Grid Flow Maps on GPU}
+
+            \vspace{0.10 cm}
+
+            \textit{Mengdi Wang}, Fan Feng, Junlin Li, Bo Zhu (Featured in video trailer)
+        \end{twocolentry}
+
+        \vspace{0.10 cm}
+
+        \begin{twocolentry}{
+            SIGGRAPH 2025
+        }
+            \textbf{Real-Time Knit Deformation and Rendering}
+
+            \vspace{0.10 cm}
+
+            \textit{Mengdi Wang*}, Tao Huang*, Haoyang Shi* (joint first authors), Yuxing Qiu, Yin Yang, Kui Wu
+        \end{twocolentry}
+
+        \vspace{0.10 cm}
+
+        \begin{twocolentry}{
+            JCP 2025.1
+        }
+            \textbf{An Interface Tracking Method with Triangle Edge Cuts}
+
+            \vspace{0.10 cm}
+
+            \textit{Mengdi Wang}, Matthew Cong, Bo Zhu
+        \end{twocolentry}
+
+        \vspace{0.10 cm}
+
+        \begin{twocolentry}{
+            SIGGRAPH ASIA 2022
+        }
+            \textbf{Hydrophobic and Hydrophilic Solid-Fluid Interaction}
+
+            \vspace{0.10 cm}
+
+            Jinyuan Liu, \textit{Mengdi Wang}, Fan Feng, Annie Tang, Qiqin Le, Bo Zhu
+        \end{twocolentry}
+
+        \vspace{0.10 cm}
+
+        \begin{twocolentry}{
+            SIGGRAPH 2022
+        }
+            \textbf{A moving eulerian-lagrangian particle method for thin film and foam simulation}
+
+            \vspace{0.10 cm}
+
+            Yitong Deng, \textit{Mengdi Wang}, Xiangxin Kong, Shiying Xiong, Zangyueyang Xian, Bo Zhu
+        \end{twocolentry}
+
+        \vspace{0.10 cm}
+
+        \begin{twocolentry}{
+            SIGGRAPH 2022
+        }
+            \textbf{A Clebsch method for free-surface vortical flow simulation}
+
+            \vspace{0.10 cm}
+
+            Shiying Xiong, Zhecheng Wang, \textit{Mengdi Wang}, Bo Zhu (Featured in video trailer)
+        \end{twocolentry}
+
+        \vspace{0.10 cm}
+
+        \begin{twocolentry}{
+            SIGGRAPH 2021
+        }
+            \textbf{Thin-film smoothed particle hydrodynamics fluid}
+
+            \vspace{0.10 cm}
+
+            \textit{Mengdi Wang}, Yitong Deng, Xiangxin Kong, Aditya H. Prasad, Shiying Xiong, Bo Zhu (Featured in video trailer)
+        \end{twocolentry}
+
+        \vspace{0.10 cm}
+
+        \begin{twocolentry}{
+            arXiv preprint (2020)
+        }
+            \textbf{Visual data analysis and simulation prediction for COVID-19}
+
+            \vspace{0.10 cm}
+
+            Baoquan Chen, Mingyi Shi, Xingyu Ni, Liangwang Ruan, Hongda Jiang, Heyuan Yao, \textit{Mengdi Wang}, Zhenhua Song, Qiang Zhou, Tong Ge
+        \end{twocolentry}
+    \end{samepage}
+
+
+
+    
+    \section{Research Experience}
+    
+    % \begin{twocolentry}{
+    % San Jose, CA \\}
+    % \textbf{Research Intern}, TikTok Inc., 2025.5 - 2026.1
+    % \end{twocolentry}
+    % \begin{onecolentry}
+    % \begin{highlights}
+    % \item Designed simulation-guided, physically-grounded video generation models by incorporating explicit physical priors into generative architectures.
+    % \end{highlights}
+    % \end{onecolentry}
+    
+    % \vspace{0.15 cm}
+    
+    \begin{twocolentry}{
+    Los Angeles, CA\\}
+    \textbf{Research Intern}, Lightspeed Studio, Tencent IEG, 2024.5 - 2024.8 
+    \end{twocolentry}
+    \begin{onecolentry}
+    \begin{highlights}
+    \item Designed a real-time yarn-level knit fabric simulation framework, resulting in a co-first-author SIGGRAPH 2025 paper.
+    \end{highlights}
+    \end{onecolentry}
+    
+    \vspace{0.15 cm}
+    
+    \begin{twocolentry}{
+    Santa Clara, CA\\}
+    \textbf{Research Intern}, NVIDIA, 2022.6 - 2022.9
+    \end{twocolentry}
+    \begin{onecolentry}
+    \begin{highlights}
+    \item Designed a GPU-accelerated geometric multigrid Poisson solver and VOF-based interface tracking method, published in \textit{Journal of Computational Physics}. Mentored by Ken Museth, Eftychios Sifakis.
+    \end{highlights}
+    \end{onecolentry}
+
+
+        \section{Teaching Experience}
+        
+        \begin{onecolentry}
+        \textbf{Instructor}, Dartmouth College, COSC 294 (Graduate Seminar) \hfill Fall 2021
+        \end{onecolentry}
+
+        \begin{onecolentry}
+        \textbf{Additional Instructor}, Dartmouth College / Georgia Tech \hfill Multiple terms
+        \end{onecolentry}
+        
+        \begin{onecolentry}
+        \textbf{Head Teaching Assistant}, Dartmouth College, COSC 277 Computer Graphics \hfill Fall 2023
+        \end{onecolentry}
+
+    % \section{Teaching Experience}
+
+    % \begin{onecolentry}
+    %     \textbf{Instructor}, Dartmouth College, COSC 294 Reading Course (graduate seminar) \hfill Fall 2021 \\
+    %     Designed and led weekly graduate-level discussions on different topics.
+    %     %COSC 294 Reading Course (graduate seminar).
+    % \end{onecolentry}
+    
+    % \begin{onecolentry}
+    %     \textbf{Head Teaching Assistant}, Dartmouth College, COSC 277 Computer Graphics \hfill Fall 2023 \\
+    %     Led TA team, taught tutorials, developed assignments, and supported course logistics.
+    %     %COSC 277 Computer Graphics by Prof. Wojciech Jarosz.
+    % \end{onecolentry}
+    
+    % \begin{onecolentry}
+    %     \textbf{Additional Instructor}, Dartmouth College / Georgia Tech \hfill Multiple terms \\
+    %     Delivered guest lectures and supervised student projects in multiple computer graphics courses.
+    %     %Computer Graphics courses by Prof. Bo Zhu.
+    % \end{onecolentry}
+
+
+    % \section{Presentations}
+
+    % %\begin{samepage}
+    %     \begin{twocolentry}{
+    %         Aug. 2025
+    %     }
+    %         \textbf{Cirrus: Adaptive Hybrid Particle-Grid Flow Maps on GPU}
+
+    %         \vspace{0.10 cm}
+
+    %         SIGGRAPH 2025 (Oral Presentation)
+    %     \end{twocolentry}
+
+    %     \vspace{0.10 cm}
+
+            
+    %     \begin{twocolentry}{
+    %         Jul. 2025
+    %     }
+    %         \textbf{An Interface Tracking Method with Triangle Edge Cuts}
+
+    %         \vspace{0.10 cm}
+
+    %         USNCCM 18 (Oral Presentation)
+    %         %SIGGRAPH 2022, oral presentation
+    %     \end{twocolentry}
+
+    %     \vspace{0.10 cm}
+
+    
+    %     \begin{twocolentry}{
+    %         Aug. 2022
+    %     }
+    %         \textbf{A moving eulerian-lagrangian particle method for thin film and foam simulation}
+
+    %         \vspace{0.10 cm}
+
+    %         SIGGRAPH 2022 (Oral Presentation)
+    %     \end{twocolentry}
+
+    %     \vspace{0.10 cm}
+
+    %     \begin{twocolentry}{
+    %         Dec. 2021
+    %     }
+    %         \textbf{Thin-film smoothed particle hydrodynamics fluid}
+
+    %         \vspace{0.10 cm}
+
+    %         212th Graphics and Mixed Environment Seminar (GAMES Webinar, Invited Talk)
+    %     \end{twocolentry}
+
+    %     \vspace{0.10 cm}
+
+    %     \begin{twocolentry}{
+    %         Aug. 2021
+    %     }
+    %         \textbf{Thin-film smoothed particle hydrodynamics fluid}
+
+    %         \vspace{0.10 cm}
+
+    %         SIGGRAPH 2021 (Online Oral Presentation)
+    %     \end{twocolentry}
+    % %\end{samepage}
+
+
+        
+    \section{Academic Service}
+    
+    \begin{onecolentry}
+        Reviewer: ACM Transactions on Graphics (SIGGRAPH), Computer Graphics Forum (CGF), Journal of Computational Physics
+        %3 siggraph, 2 jcp, 1 cgf at 20260402
+        %Student Member, Association for Computing Machinery (ACM). \\
+        %Reviewer, ACM Transactions on Graphics (3 papers). \\
+        %Reviewer, Journal of Computational Physics (2 papers).
+    \end{onecolentry}
+    
+
+
+\section{Awards and Honors}
+
+    \begin{samepage}
+        % \begin{twocolentry}{
+        %     2024
+        % }
+        %     \textbf{Chinese Government Award for Outstanding Self-financed Students Abroad}
+
+        %     \vspace{0.10 cm}
+
+        %     Awarded by the China Scholarship Council
+        % \end{twocolentry}
+
+        % \vspace{0.10 cm}
+        
+        % \begin{twocolentry}{
+        %     2018
+        % }
+        %     \textbf{Kwang-Hua Scholarship}
+
+        %     \vspace{0.10 cm}
+
+        %     Academic Year of 2017-2018
+        % \end{twocolentry}
+
+        % \vspace{0.10 cm}
+
+        % \begin{twocolentry}{
+        %     2017
+        % }
+        %     \textbf{Peking University Programming Contest}
+
+        %     \vspace{0.10 cm}
+
+        %     Second Prize (Rank 7th)
+        % \end{twocolentry}
+
+        % \vspace{0.10 cm}
+
+        % \begin{twocolentry}{
+        %     2017
+        % }
+        %     \textbf{Award of Scientific Research}
+
+        %     \vspace{0.10 cm}
+
+        %     Academic Year of 2016-2017
+        % \end{twocolentry}
+
+        % \vspace{0.10 cm}
+
+        % \begin{twocolentry}{
+        %     2017
+        % }
+        %     \textbf{Lee Wai Wing Scholarship}
+
+        %     \vspace{0.10 cm}
+
+        %     Academic Year of 2016-2017
+        % \end{twocolentry}
+
+        % \vspace{0.10 cm}
+
+        \begin{twocolentry}{
+            2016
+        }
+            \textbf{ACM-ICPC Asia Qingdao Regional Contest}
+
+            \vspace{0.10 cm}
+
+            Gold Medal (Rank 4th)
+        \end{twocolentry}
+
+        % \vspace{0.10 cm}
+
+        % \begin{twocolentry}{
+        %     2015
+        % }
+        %     \textbf{18th National Olympiad in Informatics} 
+
+        %     \vspace{0.10 cm}
+
+        %     Gold Medal (Rank 11th)
+        % \end{twocolentry}
+    \end{samepage}
+
+    
+
+\end{document}
