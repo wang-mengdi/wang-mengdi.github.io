@@ -9,7 +9,7 @@ profile:
   image: mengdi.jpg
   image_circular: false
   more_info: >
-    <p>王梦迪 | Ph.D.</p><p>Georgia Institute of Technology</p><p><a href="mailto:mengdi.wang@gatech.edu"><i class="fa-solid fa-envelope"></i> mengdi.wang@gatech.edu</a></p><p><a href="https://scholar.google.com/citations?user=-5AeATsAAAAJ" target="_blank"><i class="ai ai-google-scholar"></i> Google Scholar</a></p>
+    <p>王梦迪 | Ph.D.</p><p>Incoming Postdoctoral Researcher</p><p>PhysAI Lab · University of British Columbia</p><p><a href="mailto:mengdi.wang@gatech.edu"><i class="fa-solid fa-envelope"></i> mengdi.wang@gatech.edu</a></p><p><a href="https://scholar.google.com/citations?user=-5AeATsAAAAJ" target="_blank"><i class="ai ai-google-scholar"></i> Google Scholar</a></p>
 
 selected_papers: true
 social: true
@@ -23,11 +23,9 @@ latest_posts:
   enabled: false
 ---
 
-I am a Ph.D. in Computer Science at Georgia Tech, advised by Prof. [Bo Zhu](https://faculty.cc.gatech.edu/~bozhu/). I received my Bachelor degree of Computer Science at Peking University in 2020, advised by Prof. [Baoquan Chen](https://cfcs.pku.edu.cn/baoquan/). My research focuses on building scalable, GPU-accelerated systems for multiscale physical simulation.
+I am an incoming postdoctoral researcher in Prof. [Peter Yichen Chen](https://peterchencyc.com/)'s PhysAI Lab at the University of British Columbia. I received my Ph.D. in Computer Science from Georgia Tech, advised by Prof. [Bo Zhu](https://faculty.cc.gatech.edu/~bozhu/), and my B.S. from Peking University, where I worked with Prof. [Baoquan Chen](https://cfcs.pku.edu.cn/baoquan/).
 
-My work spans the full simulation pipeline, from physical representation and interface modeling, to transport algorithms and large-scale solvers. I have developed methods for codimensional particle-based modeling and sub-grid interface tracking, explored hybrid particle-grid formulations for low-dissipation transport, and designed adaptive, matrix-free multigrid solvers on GPUs for large-scale simulation.
-
-My long-term goal is to design unified simulation systems that achieve both physical fidelity and computational scalability, and to connect physics-based modeling with emerging AI-driven approaches to understanding and controlling complex physical processes.
+I see physical simulation as a **two-way interface between intelligent systems and the real world**. AI can enable simulations beyond the reach of hand-designed models and heuristics; physics, in turn, provides testable principles for quantifying error, verifying behavior, and supporting reliable, human-centered decision-making. My work builds this interface through multiscale representations, interface and transport algorithms, and adaptive GPU solvers, while extending it with learning and feedback loops that connect perception, simulation, generation, and control.
 
 ### Open-Source Projects
 
