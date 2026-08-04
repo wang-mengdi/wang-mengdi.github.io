@@ -27,6 +27,8 @@ I am an incoming postdoctoral fellow in Prof. [Peter Yichen Chen](https://peterc
 
 I see physical simulation as a **two-way interface between intelligent systems and the real world**. AI can enable simulations beyond the reach of hand-designed models and heuristics; physics, in turn, provides testable principles for quantifying error, verifying behavior, and supporting reliable, human-centered decision-making. My work builds this interface through multiscale representations, interface and transport algorithms, and adaptive GPU solvers, while extending it with learning and feedback loops that connect perception, simulation, generation, and control.
 
+**I am actively seeking tenure-track faculty positions.**
+
 ### Open-Source Projects
 
 [![code](https://img.shields.io/badge/Cirrus-Github-blue)](https://github.com/wang-mengdi/Cirrus)
