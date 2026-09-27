@@ -53,4 +53,3 @@ TROUBLESHOOTING.md
 .devcontainer/
 .git-blame-ignore-revs
 .gitattributes
-.prettierrc

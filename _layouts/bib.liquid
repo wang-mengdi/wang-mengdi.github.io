@@ -85,7 +85,10 @@
           {% assign equal_parts = normalized_equal_name | split: ',' %}
           {% assign equal_last_normalized = equal_parts[0] | default: '' | downcase | replace: '.', '' | strip %}
           {% assign equal_first_normalized = equal_parts[1] | default: '' | downcase | replace: '.', '' | strip %}
-          {% if equal_last_normalized == author_last_normalized and equal_first_normalized != '' and author_first_normalized contains equal_first_normalized %}
+          {% if equal_last_normalized == author_last_normalized
+            and equal_first_normalized != ''
+            and author_first_normalized contains equal_first_normalized
+          %}
             {% assign author_is_equal_contrib = true %}
             {% break %}
           {% endif %}
@@ -124,17 +127,35 @@
         {%- if author_is_self -%}
           <em>
             {{- author.first }}
-            {{ author_last_html -}}{% if author_is_equal_contrib %}<sup>*</sup>{% endif %}{% if author_is_corresponding %}<sup>†</sup>{% endif %}
+            {{ author_last_html -}}
+            {% if author_is_equal_contrib -%}
+              <sup>*</sup>
+            {%- endif -%}
+            {%- if author_is_corresponding -%}
+              <sup>†</sup>
+            {%- endif %}
           </em>
         {%- else -%}
           {%- if coauthor_url -%}
             <a href="{{ coauthor_url }}">
               {{- author.first }}
-              {{ author_last_html -}}{% if author_is_equal_contrib %}<sup>*</sup>{% endif %}{% if author_is_corresponding %}<sup>†</sup>{% endif %}
+              {{ author_last_html -}}
+              {% if author_is_equal_contrib -%}
+                <sup>*</sup>
+              {%- endif -%}
+              {%- if author_is_corresponding -%}
+                <sup>†</sup>
+              {%- endif %}
             </a>
           {%- else -%}
             {{- author.first }}
-            {{ author_last_html -}}{% if author_is_equal_contrib %}<sup>*</sup>{% endif %}{% if author_is_corresponding %}<sup>†</sup>{% endif %}
+            {{ author_last_html -}}
+            {% if author_is_equal_contrib -%}
+              <sup>*</sup>
+            {%- endif -%}
+            {%- if author_is_corresponding -%}
+              <sup>†</sup>
+            {%- endif %}
           {% endif %}
         {%- endif -%}
       {% endfor %}
@@ -223,14 +244,19 @@
     <div class="periodical">
       {{ entry.note | strip }}
     </div>
-    {% if entry.equal_contrib %}
+    {% if entry.equal_contrib or entry.corresponding %}
       <div class="periodical">
-        <sup>*</sup> Co-first authors.
-      </div>
-    {% endif %}
-    {% if entry.corresponding %}
-      <div class="periodical">
-        <sup>†</sup> Corresponding author{% if corresponding_names.size > 1 %}s{% endif %}.
+        {% if entry.equal_contrib -%}
+          <span><sup>*</sup> Co-first authors.</span>
+        {%- endif %}
+        {% if entry.corresponding %}
+          <span
+            {% if entry.equal_contrib %}
+              class="ml-2"
+            {% endif %}
+            ><sup>†</sup> Corresponding author{% if corresponding_names.size > 1 %}s{% endif %}.</span
+          >
+        {% endif %}
       </div>
     {% endif %}
 
