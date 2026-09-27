@@ -5,6 +5,6 @@ title: CV
 nav: true
 nav_order: 5
 target: _blank
-redirect: /assets/pdf/mengdi_cv_en_2608.pdf
+redirect: /assets/pdf/mengdi_cv_en_2609.pdf
 description: Curriculum Vitae
 ---

@@ -23,7 +23,7 @@ latest_posts:
   enabled: false
 ---
 
-I am an incoming postdoctoral fellow in Prof. [Peter Yichen Chen](https://peterchencyc.com/)'s PhysAI Lab at the University of British Columbia. I received my Ph.D. in Computer Science from Georgia Tech, advised by Prof. [Bo Zhu](https://faculty.cc.gatech.edu/~bozhu/), and my B.S. from Peking University, where I worked with Prof. [Baoquan Chen](https://cfcs.pku.edu.cn/baoquan/).
+I am a postdoctoral fellow in Prof. [Peter Yichen Chen](https://peterchencyc.com/)'s PhysAI Lab at the University of British Columbia. I received my Ph.D. in Computer Science from Georgia Tech, advised by Prof. [Bo Zhu](https://faculty.cc.gatech.edu/~bozhu/), and my B.S. from Peking University, where I worked with Prof. [Baoquan Chen](https://cfcs.pku.edu.cn/baoquan/).
 
 I see physical simulation as a **two-way interface between intelligent systems and the real world**. AI can enable simulations beyond the reach of hand-designed models and heuristics; physics, in turn, provides testable principles for quantifying error, verifying behavior, and supporting reliable, human-centered decision-making. My work builds this interface through multiscale representations, interface and transport algorithms, and adaptive GPU solvers, while extending it with learning and feedback loops that connect perception, simulation, generation, and control.
 
