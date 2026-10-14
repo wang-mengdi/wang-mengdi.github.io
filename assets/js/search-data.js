@@ -18,7 +18,7 @@ ninja.data = [{
           },
         },{id: "nav-projects",
           title: "Projects",
-          description: "",
+          description: "Numerical software and research projects for physical simulation, GPU computing and multigrid solvers.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
@@ -68,14 +68,14 @@ ninja.data = [{
               window.location.href = "/projects/1_cirrus/";
             },},{id: "projects-meso",
           title: 'MESO',
-          description: "Modern GPU Fluid Simulator in C++ and CUDA",
+          description: "A C++ and CUDA framework supporting research in fluid simulation, interface tracking and physical optimisation.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/2_meso/";
+              window.location.href = "/proj/meso/";
             },},{id: "projects-simplex",
-          title: 'Simplex',
-          description: "Physics Simulation, Optimization, and Visualization Library",
+          title: 'SimpleX',
+          description: "A shared C++ research framework for developing, solving and visualising physical simulations.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/3_simplex/";
+              window.location.href = "/proj/simplex/";
             },},{id: "projects-melp-thin-film",
           title: 'MELP Thin Film',
           description: "Moving Eulerian-Lagrangian Particle Method for Thin Film and Foam Simulation",
