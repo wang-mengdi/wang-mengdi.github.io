@@ -1,0 +1,26 @@
+{% assign software_id = include.software_id | default: page.software_id %}
+{% assign software = site.data.software[software_id] %}
+<div class="software-research software-research-{{ software.papers.size }}" id="{{ include.anchor | default: 'research' }}">
+  {% for paper in software.papers %}
+    <article class="software-paper">
+      <a class="software-paper-image" href="{{ paper.project | relative_url }}" aria-label="{{ paper.title | escape }} — project or paper">
+        <img src="{{ paper.image | relative_url }}" alt="{{ paper.alt | escape }}" loading="lazy">
+      </a>
+      <div class="software-paper-body">
+        <p class="software-paper-venue">{{ paper.venue }}</p>
+        <h3>
+          <a href="{{ paper.project | relative_url }}">{{ paper.name }}</a>
+        </h3>
+        <p>{{ paper.summary }}</p>
+        <p class="software-paper-title">{{ paper.title }}</p>
+        <p class="software-paper-authors">{{ paper.authors }}</p>
+        <div class="software-paper-links">
+          <a href="{{ paper.project | relative_url }}">{{ paper.link_label | default: 'Project' }} ↗</a>
+          {% if paper.code -%}
+            <a href="{{ paper.code }}">Code ↗</a>
+          {%- endif %}
+        </div>
+      </div>
+    </article>
+  {% endfor %}
+</div>

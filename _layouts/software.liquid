@@ -1,0 +1,26 @@
+---
+layout: default
+---
+<link rel="stylesheet" href="{{ '/assets/css/software.css' | relative_url }}">
+<article class="software-page">
+  <header class="software-hero">
+    <a class="software-back" href="{{ '/projects/' | relative_url }}">← Projects</a>
+    <p class="software-eyebrow">Research software</p>
+    <h1>{{ page.title }}</h1>
+    <p class="software-subtitle">{{ page.subtitle }}</p>
+    <nav class="software-actions" aria-label="Project navigation">
+      <a class="software-action" href="#research">Research highlights</a>
+      <a href="{{ page.github }}">Source code ↗</a>
+      {% if page.software_id == 'meso' %}
+        <a href="{{ '/proj/simplex/' | relative_url }}">Explore SimpleX →</a>
+      {% else %}
+        <a href="{{ '/proj/meso/' | relative_url }}">Explore MESO →</a>
+      {% endif %}
+    </nav>
+  </header>
+  <div class="software-content">{{ content }}</div>
+  <footer class="software-end">
+    <a href="{{ '/' | relative_url }}">Mengdi Wang · Research &amp; publications</a>
+    <a href="{{ page.github }}">{{ page.title }} source repository ↗</a>
+  </footer>
+</article>

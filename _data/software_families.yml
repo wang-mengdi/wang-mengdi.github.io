@@ -1,0 +1,27 @@
+- id: simplex
+  title: SimpleX
+  label: Shared simulation infrastructure
+  description: A C++ framework for physical simulation, optimisation and visualisation, supporting research across different representations and numerical methods.
+  features: Shared geometry, discretisation, solver and visualisation components support the construction of different physical simulators.
+  examples: Free-surface Clebsch · SPH Bubble · MELP
+  url: /proj/simplex/
+  code: https://gitlab.com/boolzhu/simplex
+  children_label: Research built with SimpleX
+- id: meso
+  title: MESO
+  label: GPU numerical computing
+  description: A C++ and CUDA framework that turns numerical methods into reusable GPU components for physical simulation and computational design.
+  features: MESO development began in 2022 under the leadership of Mengdi Wang. Reusable data structures, discrete differential operators and GPU solvers support numerical algorithm development.
+  examples: Triangle Edge Cuts · NeuralFluid · Thin-shell Optimisation
+  url: /proj/meso/
+  code: https://github.com/wang-mengdi/meso
+  children_label: Research supported by MESO
+- id: cirrus
+  title: Cirrus
+  label: GPU multigrid solvers
+  description: A GPU codebase for adaptive fluid simulation, with particle–grid flow maps and multigrid solvers.
+  features: Cirrus development began in 2024. The simulator was developed by Mengdi Wang. It combines particle trackers, adaptive grids and multigrid solvers for GPU fluid simulation.
+  examples: Cirrus · Cirrus-AMG
+  url: /projects/#cirrus
+  children_label: Cirrus and Cirrus-AMG
+  note: Cirrus-AMG builds on Cirrus and provides the implementation accompanying the arXiv paper on algebraically consistent coarsening.

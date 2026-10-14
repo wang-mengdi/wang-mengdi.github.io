@@ -34,15 +34,17 @@ ACM Transactions on Graphics (Proceedings of SIGGRAPH 2025)
 
 <figure>
   <img src="./representative-image.jpg" align="left" width="100%" style="margin: 0% 5% 2.5% 0%">
-  <figcaption>Left: smoke (large) passing a racing car and its vorticity field (small). Right: smoke (large) passing an aircraft with 4 rotating propellers at a 15-degree angle of attack and its vorticity field (small). The wingtip vortices are captured by our algorithm in the vorticity field. Effective resolutions are 512x512x1024 on our adaptive grid implemented on GPU.</figcaption>
+  <figcaption>Left: smoke (large) passing a racing car and its vorticity field (small). Right: smoke (large) passing an aircraft with 4 rotating propellers at a 15-degree angle of attack and its vorticity field (small). The algorithm captures wingtip vortices in the vorticity field. Effective resolutions are 512x512x1024 on the adaptive grid implemented on GPU.</figcaption>
 </figure>
 <br />
 
-**Simulating large-scale fluids with incredible detail just got easier.** Meet _Cirrus_, our high-performance GPU simulator for high-resolution fluid simulations. By combining particles and adaptive grids in a new hybrid flow-map scheme, Cirrus uniquely preserves fine vortex details while achieving substantial efficiency gains—up to 100×—compared to uniform-grid methods. Our framework supports simulations up to `512×512×2048` resolution on a single RTX 4090 GPU, delivering both speed and quality in a single system. See the results below or try with our [open-source code](https://github.com/wang-mengdi/Cirrus)!
+_Cirrus_ is a GPU simulator for high-resolution fluid simulations. Its hybrid flow-map scheme combines particles and adaptive grids to preserve fine vortex details while reducing computational requirements. Compared to uniform-grid methods, the adaptive implementation achieves efficiency gains of up to 100× and supports simulations up to `512×512×2048` resolution on a single RTX 4090 GPU. The [open-source code](https://github.com/wang-mengdi/Cirrus) provides the simulation framework used in the results below.
+
+Cirrus development began in 2024. The simulator was developed by Mengdi Wang. It uses adaptive octree grids, hybrid particle-grid flow maps and GPU execution.
 
 ## Abstract
 
-We propose the adaptive hybrid particle-grid flow map method, a novel flow-map approach that leverages Lagrangian particles to simultaneously transport impulse and guide grid adaptation, introducing a fully adaptive flow map-based fluid simulation framework. The core idea of our method is to maintain flow-map trajectories separately on grid nodes and particles: the grid-based representation tracks long-range flow maps at a coarse spatial resolution, while the particle-based representation tracks both long and short-range flow maps, enhanced by their gradients, at a fine resolution. This hybrid Eulerian-Lagrangian flow-map representation naturally enables adaptivity for both advection and projection steps. We implement this method in Cirrus, a GPU-based fluid simulation framework designed for octree-like adaptive grids enhanced with particle trackers. The efficacy of our system is demonstrated through numerical tests and various simulation examples, achieving up to 512x512x2048 effective resolution on an RTX 4090 GPU. We achieve a 1.5 to 2x speedup with our GPU optimization over the Particle Flow Map method on the same hardware, while the adaptive grid implementation offers efficiency gains of one to two orders of magnitude by reducing computational resource requirements. The source code has been made publicly available at: [https://wang-mengdi.github.io/proj/25-cirrus/](https://wang-mengdi.github.io/proj/25-cirrus/).
+The adaptive hybrid particle-grid flow map method is a novel flow-map approach that uses Lagrangian particles to simultaneously transport impulse and guide grid adaptation, introducing a fully adaptive flow map-based fluid simulation framework. The core idea of the method is to maintain flow-map trajectories separately on grid nodes and particles: the grid-based representation tracks long-range flow maps at a coarse spatial resolution, while the particle-based representation tracks both long and short-range flow maps, enhanced by their gradients, at a fine resolution. This hybrid Eulerian-Lagrangian flow-map representation naturally enables adaptivity for both advection and projection steps. This method is implemented in Cirrus, a GPU-based fluid simulation framework designed for octree-like adaptive grids enhanced with particle trackers. The efficacy of the system is demonstrated through numerical tests and various simulation examples, achieving up to 512x512x2048 effective resolution on an RTX 4090 GPU. The GPU optimization achieves a 1.5 to 2x speedup over the Particle Flow Map method on the same hardware, while the adaptive grid implementation offers efficiency gains of one to two orders of magnitude by reducing computational resource requirements. The source code has been made publicly available at: [https://wang-mengdi.github.io/proj/25-cirrus/](https://wang-mengdi.github.io/proj/25-cirrus/).
 
 ## Method
 
@@ -51,7 +53,7 @@ We propose the adaptive hybrid particle-grid flow map method, a novel flow-map a
   Flamingo with grid structure
 </video>
 
-We construct an octree-based adaptive grid on the GPU using 8×8×8 tiles as the fundamental building blocks. A particle system serves both as a medium for convective flow mapping and as an oracle to guide grid refinement, enabling fine resolution in regions with critical flow features.
+Cirrus constructs an octree-based adaptive grid on the GPU using 8×8×8 tiles as the fundamental building blocks. A particle system serves both as a medium for convective flow mapping and as an oracle to guide grid refinement, enabling fine resolution in regions with critical flow features.
 
 ## Results
 
@@ -65,7 +67,7 @@ The computational domain is $1\times 1\times 2$ with effective resolution $512\t
 
 ### Aircraft
 
-A WP-3D aircraft model in flow $(0,0,1)$ with $4$ rotating propellers at a 15-degree angle of attack. The effective resolution is $512\times 512\times 1024$ in a computational domain $1\times 1\times 2$, and the length of the aircraft is $0.9$. It demonstrates that our algorithm can efficiently simulate moving small objects and effectively reproduce physical phenomena such as wingtip vortices.
+A WP-3D aircraft model in flow $(0,0,1)$ with $4$ rotating propellers at a 15-degree angle of attack. The effective resolution is $512\times 512\times 1024$ in a computational domain $1\times 1\times 2$, and the length of the aircraft is $0.9$. This example demonstrates that the algorithm can efficiently simulate moving small objects and reproduce physical phenomena such as wingtip vortices.
 
 <video width="100%" controls autoplay muted playsinline loop preload="auto">
   <source src="wp3drot1.0-smoke.mp4" type="video/mp4">

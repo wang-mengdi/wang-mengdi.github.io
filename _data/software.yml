@@ -1,0 +1,77 @@
+meso:
+  papers:
+    - name: Triangle Edge Cuts
+      title: An interface tracking method with triangle edge cuts
+      venue: Journal of Computational Physics · 2025
+      authors: Mengdi Wang, Matthew Cong and Bo Zhu
+      summary: Compact, volume-conserving interface tracking on unstructured triangle meshes.
+      project: /proj/triangle-edge-cuts/
+      image: /assets/img/publication_preview/triangle-edge-cuts-preview.png
+      alt: Material interfaces reconstructed on triangle meshes using triangle edge cuts.
+    - name: NeuralFluid
+      title: "NeuralFluid: Neural Fluidic System Design and Control with Differentiable Simulation"
+      venue: NeurIPS · 2024
+      authors: Yifei Li, Yuchen Sun, Pingchuan Ma, Eftychios Sifakis, Tao Du, Bo Zhu and Wojciech Matusik
+      summary: Fluidic system design and control through differentiable simulation.
+      project: https://people.csail.mit.edu/liyifei/publication/neuralfluid/
+      image: /assets/img/publication_preview/neural_fluid_repr.png
+      alt: Research examples from NeuralFluid, a project supported by MESO.
+    - name: Thin-shell Optimisation
+      title: Nonlinear topology optimization on thin shells using a reduced-order elastic shell model
+      venue: Thin-Walled Structures · 2024
+      authors: Fan Feng, Shiying Xiong, Hiroki Kobayashi, Yuqing Zhou, Masato Tanaka, Atsushi Kawamoto, Tsuyoshi Nomura and Bo Zhu
+      summary: Structural topology optimisation using a reduced-order elastic shell model.
+      project: https://shiyingxiong.github.io/proj/ThinShell/ThinShell.pdf
+      link_label: Paper
+      image: /assets/img/publication_preview/thinshell.png
+      alt: Optimised shell structures from research supported by MESO.
+simplex:
+  papers:
+    - name: Free-surface Clebsch
+      title: A Clebsch method for free-surface vortical flow simulation
+      venue: ACM TOG / SIGGRAPH · 2022
+      authors: Shiying Xiong, Zhecheng Wang, Mengdi Wang and Bo Zhu
+      summary: Vortical liquid flows with evolving free surfaces, implemented using the SimpleX framework.
+      project: https://shiyingxiong.github.io/proj/Clebsch/Clebsch
+      image: /assets/img/publication_preview/clebsch-preview.png
+      alt: Free-surface vortical liquid simulation from the Clebsch method.
+    - name: SPH Bubble
+      title: Thin-film smoothed particle hydrodynamics fluid
+      venue: ACM TOG / SIGGRAPH · 2021
+      authors: Mengdi Wang, Yitong Deng, Xiangxin Kong, Aditya H. Prasad, Shiying Xiong and Bo Zhu
+      summary: Particle-based thin-film dynamics, coupling surface deformation with flow within the film.
+      project: /proj/thin-film-sph/
+      code: https://github.com/wang-mengdi/sph-thin-film
+      image: /proj/thin-film-sph/resources/sphbubble_thumbnail.png
+      alt: Soap-bubble and thin-film phenomena simulated with the SPH Bubble method.
+    - name: MELP
+      title: A moving Eulerian-Lagrangian particle method for thin film and foam simulation
+      venue: ACM TOG / SIGGRAPH · 2022
+      authors: Yitong Deng, Mengdi Wang, Xiangxin Kong, Shiying Xiong, Zangyueyang Xian and Bo Zhu
+      summary: A moving Eulerian–Lagrangian particle method for thin films and foams, built with SimpleX.
+      project: https://yitongdeng.github.io/MELP_Project.github.io/
+      code: https://github.com/wang-mengdi/melp-thin-film
+      image: /assets/img/publication_preview/melp-preview.png
+      alt: Thin-film and foam simulation results from the MELP method.
+
+cirrus:
+  papers:
+    - name: Cirrus
+      title: "Cirrus: Adaptive Hybrid Particle-Grid Flow Maps on GPU"
+      venue: ACM TOG / SIGGRAPH · 2025
+      authors: Mengdi Wang, Fan Feng, Junlin Li and Bo Zhu
+      summary: Adaptive particle–grid flow maps and GPU multigrid make detailed vortical flow simulation practical on spatially adaptive grids.
+      project: /proj/25-cirrus/
+      code: https://github.com/wang-mengdi/Cirrus
+      image: /assets/img/publication_preview/cirrus-preview.jpg
+      alt: Adaptive vortical flow simulation from the Cirrus project.
+    - name: Cirrus-AMG
+      title: Matrix-Free Multigrid with Algebraically Consistent Coarsening on Adaptive Octrees
+      venue: arXiv preprint · 2026
+      authors: Mengdi Wang, Yuchen Sun and Bo Zhu
+      summary: A matrix-free GPU multigrid solver that maintains consistency across octree refinement levels and supports irregular, cut-cell domains.
+      project: https://arxiv.org/abs/2604.18886
+      link_label: Paper
+      code: https://github.com/wang-mengdi/Cirrus-amg
+      image: /assets/img/software/cirrus-amg-preview.png
+      alt: Star-shaped irregular domain embedded in an adaptive octree grid, from Figure 5 of the Cirrus-AMG paper.
