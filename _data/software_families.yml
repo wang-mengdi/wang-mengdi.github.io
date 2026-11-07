@@ -1,7 +1,7 @@
 - id: simplex
   title: SimpleX
   label: Shared simulation infrastructure
-  description: SimpleX is a simulation framework used to study vortices beneath a free surface and flow within thin liquid films.
+  description: SimpleX is a C++ library for fluid and solid mechanics. It includes Eulerian and particle-based fluid solvers and finite element models of deformable solids.
   features: I took over maintenance and development of SimpleX at Dartmouth and continued that work at Georgia Tech.
   examples: Free-surface Clebsch · SPH Bubble · MELP
   url: /proj/simplex/
@@ -9,7 +9,7 @@
 - id: meso
   title: MESO
   label: GPU numerical computing
-  description: MESO is a GPU library for tracking material interfaces and for computational design.
+  description: MESO implements grid and particle methods for fluid simulation on GPUs. Its C++/CUDA grid solver uses discrete exterior calculus to compute velocity divergence and pressure gradients.
   features: I led the team that started MESO in 2022. We used it in our work on interface tracking. Other groups have used it for fluidic design and thin-shell optimisation.
   examples: Triangle Edge Cuts · NeuralFluid · Thin-shell Optimisation
   url: /proj/meso/

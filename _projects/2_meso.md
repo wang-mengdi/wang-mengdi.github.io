@@ -1,8 +1,8 @@
 ---
 layout: software
 title: MESO
-subtitle: GPU computing for physical simulation research
-description: A C++ and CUDA framework supporting research in fluid simulation, interface tracking and physical optimisation.
+subtitle: Grid and particle methods for fluid simulation
+description: A C++/CUDA library for grid, particle and hybrid fluid simulation on GPUs.
 permalink: /proj/meso/
 software_id: meso
 img: assets/img/publication_preview/thinshell.png
@@ -11,7 +11,7 @@ category: research-software
 github: https://github.com/wang-mengdi/meso
 ---
 
-MESO is a C++ and CUDA library for physical simulation and computational design.
+MESO implements fluid solvers in C++ and CUDA. The code includes an Eulerian grid solver, a smoothed particle hydrodynamics (SPH) solver and a particle-in-cell solver that transfers velocity between particles and a grid.
 
 I led the team that started MESO in 2022.
 
@@ -21,7 +21,7 @@ I led the team that started MESO in 2022.
 
 ## Numerical methods
 
-MESO uses discrete exterior calculus to assemble differential operators on grids. Its fluid and particle simulators share data structures and GPU solvers.
+In the Eulerian solver, MESO uses discrete exterior calculus to compute velocity divergence on grid cells and pressure gradients on grid faces. It solves the pressure Poisson equation with conjugate gradients, using a multigrid V-cycle as the preconditioner.
 
 <figure class="software-architecture">
   <a href="{{ '/assets/img/software/meso-design.png' | relative_url }}">

@@ -1,8 +1,8 @@
 ---
 layout: software
 title: SimpleX
-subtitle: Physics simulation, optimisation and visualisation
-description: A shared C++ research framework for developing, solving and visualising physical simulations.
+subtitle: Numerical methods for fluids and solids
+description: A C++ library for Eulerian and particle-based fluid simulation, finite element elasticity and rigid-body dynamics.
 permalink: /proj/simplex/
 software_id: simplex
 img: assets/img/publication_preview/clebsch-preview.png
@@ -11,7 +11,7 @@ category: research-software
 github: https://gitlab.com/boolzhu/simplex
 ---
 
-SimpleX is a shared C++ research framework for physics simulation, optimisation and visualisation. It brings together geometric representations, numerical solvers, physical models and an interactive OpenGL viewer, with OpenMP and CUDA support for parallel computation. The same foundation supports research across free-surface flows, thin films, elastic and rigid bodies, and computational design.
+SimpleX includes C++ solvers for free-surface flow on staggered grids, smoothed particle hydrodynamics (SPH), rigid-body dynamics and finite element elasticity. At Dartmouth, we used it as the common library for research code in our companion repository, Complex. The Clebsch, SPH Bubble and MELP solvers in Complex all build against SimpleX.
 
 I took over maintenance and development of SimpleX at Dartmouth and continued that work at Georgia Tech.
 
