@@ -18,7 +18,7 @@ ninja.data = [{
           },
         },{id: "nav-projects",
           title: "Projects",
-          description: "Numerical software and research projects for physical simulation, GPU computing and multigrid solvers.",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
