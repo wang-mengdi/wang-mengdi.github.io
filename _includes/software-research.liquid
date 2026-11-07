@@ -11,15 +11,22 @@
         <h3>
           <a href="{{ paper.project | relative_url }}">{{ paper.name }}</a>
         </h3>
-        <p>{{ paper.summary }}</p>
-        <p class="software-paper-title">{{ paper.title }}</p>
-        <p class="software-paper-authors">{{ paper.authors }}</p>
-        <div class="software-paper-links">
-          <a href="{{ paper.project | relative_url }}">{{ paper.link_label | default: 'Project' }} ↗</a>
-          {% if paper.code -%}
-            <a href="{{ paper.code }}">Code ↗</a>
-          {%- endif %}
-        </div>
+        {% if include.compact %}
+          <p>{{ paper.highlight }}</p>
+          {% if paper.code %}
+            <div class="software-paper-links"><a href="{{ paper.code }}">Code</a></div>
+          {% endif %}
+        {% else %}
+          <p>{{ paper.summary }}</p>
+          <p class="software-paper-title">{{ paper.title }}</p>
+          <p class="software-paper-authors">{{ paper.authors }}</p>
+          <div class="software-paper-links">
+            <a href="{{ paper.project | relative_url }}">{{ paper.link_label | default: 'Project' }} ↗</a>
+            {% if paper.code -%}
+              <a href="{{ paper.code }}">Code ↗</a>
+            {%- endif %}
+          </div>
+        {% endif %}
       </div>
     </article>
   {% endfor %}

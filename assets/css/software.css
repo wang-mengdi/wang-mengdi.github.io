@@ -251,84 +251,53 @@ html[data-theme="dark"] .software-overview a {
   }
 }
 
-.software-family-nav {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 1.5rem;
-  margin: 2rem 0 3rem;
-  padding: 1rem 0;
-  border-block: 1px solid var(--global-divider-color);
-}
-.software-family-nav a {
-  font-size: 1.15rem;
-  font-weight: 600;
-}
-.software-family-nav span {
-  display: block;
-  font-size: 0.8rem;
-  font-weight: 400;
-  margin-top: 0.2rem;
-}
 .software-family {
   scroll-margin-top: 6rem;
-  margin: 0 0 3.5rem;
+  margin-bottom: 2.5rem;
 }
 .software-family + .software-family {
   border-top: 1px solid var(--global-divider-color);
   padding-top: 1.5rem;
 }
 .software-family-header h2 {
-  font-size: 2.5rem;
-  margin: 0.4rem 0 0.9rem;
+  font-size: 1.85rem;
+  margin: 0 0 0.65rem;
 }
 .software-family-header > p {
-  max-width: 54rem;
+  max-width: 52rem;
+  margin-bottom: 0.5rem;
 }
 .software-family-intro {
-  font-size: 1.07rem;
   font-weight: 600;
-  line-height: 1.6;
 }
-.software-family-children {
-  font-size: 1.1rem;
-  font-weight: 600;
-  margin: 2rem 0 0.4rem;
+.software-source {
+  margin-inline-start: 0.35em;
+  font-size: 0.9em;
+  white-space: nowrap;
 }
-.software-family-note {
-  font-size: 0.92rem;
-  margin-bottom: 1rem;
+.software-collection .software-paper {
+  border-top: 0;
+}
+.software-collection .software-paper-venue {
+  color: var(--global-text-color-light);
+  font-weight: 400;
 }
 .software-research-2 {
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 .software-collection a:focus-visible,
-.software-family-nav a:focus-visible,
 .software-overview a:focus-visible {
   outline: 3px solid var(--global-theme-color);
   outline-offset: 5px;
 }
-html[data-theme="dark"] .software-collection,
-html[data-theme="dark"] .software-family-nav {
+html[data-theme="dark"] .software-collection {
   color: #e5e8ec;
 }
-html[data-theme="dark"] .software-collection a,
-html[data-theme="dark"] .software-family-nav a {
+html[data-theme="dark"] .software-collection a {
   color: #8fc4ff;
 }
 @media (max-width: 767px) {
   .software-research-2 {
     grid-template-columns: 1fr;
-  }
-  .software-family-nav {
-    gap: 0.8rem;
-  }
-  .software-family-nav a {
-    font-size: 1rem;
-  }
-  .software-family-nav span {
-    font-size: 0.72rem;
-  }
-  .software-family-header h2 {
-    font-size: 2rem;
   }
 }

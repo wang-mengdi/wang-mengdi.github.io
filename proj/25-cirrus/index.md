@@ -38,9 +38,7 @@ ACM Transactions on Graphics (Proceedings of SIGGRAPH 2025)
 </figure>
 <br />
 
-_Cirrus_ is a GPU simulator for high-resolution fluid simulations. Its hybrid flow-map scheme combines particles and adaptive grids to preserve fine vortex details while reducing computational requirements. Compared to uniform-grid methods, the adaptive implementation achieves efficiency gains of up to 100× and supports simulations up to `512×512×2048` resolution on a single RTX 4090 GPU. The [open-source code](https://github.com/wang-mengdi/Cirrus) provides the simulation framework used in the results below.
-
-Cirrus development began in 2024. The simulator was developed by Mengdi Wang. It uses adaptive octree grids, hybrid particle-grid flow maps and GPU execution.
+Mengdi Wang began developing [Cirrus](https://github.com/wang-mengdi/Cirrus) on MESO in 2024. The simulator combines particle flow maps with an adaptive grid to resolve fine vortices on a single GPU.
 
 ## Abstract
 
@@ -53,7 +51,7 @@ The adaptive hybrid particle-grid flow map method is a novel flow-map approach t
   Flamingo with grid structure
 </video>
 
-Cirrus constructs an octree-based adaptive grid on the GPU using 8×8×8 tiles as the fundamental building blocks. A particle system serves both as a medium for convective flow mapping and as an oracle to guide grid refinement, enabling fine resolution in regions with critical flow features.
+Cirrus constructs an octree-based adaptive grid on the GPU using 8×8×8 tiles as the fundamental building blocks. Particles carry the flow maps and guide local grid refinement.
 
 ## Results
 
@@ -67,7 +65,7 @@ The computational domain is $1\times 1\times 2$ with effective resolution $512\t
 
 ### Aircraft
 
-A WP-3D aircraft model in flow $(0,0,1)$ with $4$ rotating propellers at a 15-degree angle of attack. The effective resolution is $512\times 512\times 1024$ in a computational domain $1\times 1\times 2$, and the length of the aircraft is $0.9$. This example demonstrates that the algorithm can efficiently simulate moving small objects and reproduce physical phenomena such as wingtip vortices.
+A WP-3D aircraft model in flow $(0,0,1)$ with $4$ rotating propellers at a 15-degree angle of attack. The effective resolution is $512\times 512\times 1024$ in a computational domain $1\times 1\times 2$, and the length of the aircraft is $0.9$. Wingtip vortices are visible in the wake.
 
 <video width="100%" controls autoplay muted playsinline loop preload="auto">
   <source src="wp3drot1.0-smoke.mp4" type="video/mp4">

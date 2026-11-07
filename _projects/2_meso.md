@@ -11,28 +11,24 @@ category: research-software
 github: https://github.com/wang-mengdi/meso
 ---
 
-MESO brings reusable numerical building blocks to GPU simulation research. Its C++ and CUDA implementation gives researchers direct control over physical models, discretisation and computation, with shared components for developing and testing new methods.
+MESO is a C++ and CUDA library for physical simulation and computational design.
 
-MESO development began in 2022 under the leadership of Mengdi Wang. The framework supports research in interface tracking, fluidic design and control, and thin-shell optimisation through shared numerical and GPU components.
+I led the team that started MESO in 2022.
 
 ## Research supported by MESO
 
-These projects illustrate how a common computational foundation can support different research questions. The linked papers describe the methods and results of each project.
-
 {% include software-research.liquid %}
 
-## From numerical methods to reusable software
+## Numerical methods
 
-MESO separates shared infrastructure from numerical algorithms and application-specific simulators. Discrete exterior calculus (DEC) provides a way to assemble grid-based differential operators from their mathematical definitions; GPU solvers and reusable data structures support the resulting computations. This organisation lets research projects extend a common implementation while retaining control over their numerical choices.
+MESO uses discrete exterior calculus to assemble differential operators on grids. Its fluid and particle simulators share data structures and GPU solvers.
 
 <figure class="software-architecture">
   <a href="{{ '/assets/img/software/meso-design.png' | relative_url }}">
     <img src="{{ '/assets/img/software/meso-design.png' | relative_url }}" alt="MESO design overview: common infrastructure, geometry, data storage and solvers; particle, mesh, grid and DEC algorithms; application simulators." loading="lazy">
   </a>
-  <figcaption>Original design overview from the MESO README. The layers show the design organisation rather than an exhaustive build-dependency graph. Select to view at full size.</figcaption>
+  <figcaption>MESO architecture, from the project README. Mesh-based extensions are shown as part of the design.</figcaption>
 </figure>
-
-The public code includes grid-based fluid, particle and hybrid simulation components. The diagram also indicates the intended space for mesh-based extensions. Project-specific capabilities are described in the associated research papers.
 
 ## Numerical performance
 
@@ -60,4 +56,4 @@ The repository credits [Mengdi Wang]({{ '/' | relative_url }}), [Yuchen Sun](htt
 
 ## Explore the code
 
-The [public repository](https://github.com/wang-mengdi/meso) contains the framework, examples and test scripts. Its [getting-started guide](https://github.com/wang-mengdi/meso#getting-started) introduces the C++/CUDA toolchain, xmake build workflow and ParaView visualisation. Individual research projects may use their own extensions or versions of the framework.
+The [public repository](https://github.com/wang-mengdi/meso) contains the framework, examples and test scripts. Its [getting-started guide](https://github.com/wang-mengdi/meso#getting-started) introduces the C++/CUDA toolchain, xmake build workflow and ParaView visualisation.
