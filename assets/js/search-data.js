@@ -68,12 +68,12 @@ ninja.data = [{
               window.location.href = "/projects/1_cirrus/";
             },},{id: "projects-meso",
           title: 'MESO',
-          description: "A C++ and CUDA framework supporting research in fluid simulation, interface tracking and physical optimisation.",
+          description: "A C++/CUDA library for grid, particle and hybrid fluid simulation on GPUs.",
           section: "Projects",handler: () => {
               window.location.href = "/proj/meso/";
             },},{id: "projects-simplex",
           title: 'SimpleX',
-          description: "A shared C++ research framework for developing, solving and visualising physical simulations.",
+          description: "A C++ library for Eulerian and particle-based fluid simulation, finite element elasticity and rigid-body dynamics.",
           section: "Projects",handler: () => {
               window.location.href = "/proj/simplex/";
             },},{id: "projects-melp-thin-film",
